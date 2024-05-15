@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.arrow {
+  transition: transform 0.2s;
+}
+
+li:hover .arrow {
+  transform: translateX(5px);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

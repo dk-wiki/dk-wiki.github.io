@@ -4,18 +4,18 @@ import { FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 
 const socialMedia = [
-    { name: 'Discord', icon: FaDiscord, color: '#7289DA' },
-    { name: 'Twitter', icon: FaXTwitter, color: '#000000' },
-  ];
-  
-  const Container = styled.div`
+    { name: 'Discord', icon: FaDiscord, color: '#7289DA', url: 'https://discord.gg/wQ44NaDZj3' },
+    { name: 'Twitter', icon: FaXTwitter, color: '#000000', url: 'https://x.com/321dk123' },
+];
+
+const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-  `;
-  
-  const Button = styled.div`
+`;
+
+const Button = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,57 +26,63 @@ const socialMedia = [
     background-color: transparent;
     transition: all 0.3s ease;
     opacity: 0.7;
-  
+
     ${({ active, color }) =>
-      active &&
-      css`
+        active &&
+        css`
         background-color: ${color};
         transform: scale(1.2);
         opacity: 1;
-      `}
-  
+        `}
+
     ${({ inactive }) =>
-      inactive &&
-      css`
+        inactive &&
+        css`
         transform: scale(0.8);
         opacity: 0.5;
-      `}
-  `;
-  
-  const Icon = styled.div`
+        `}
+`;
+
+const Icon = styled.div`
     font-size: 45px;
     color: ${({ active }) => (active ? '#fff' : '#000')};
     transition: color 0.3s ease;
-  `;
-  
-  const SocialMediaButtons = () => {
-    const [activeButton, setActiveButton] = useState(null);
-  
-    return (
-      <Container>
-        {socialMedia.map((media, index) => {
-          const IconComponent = media.icon;
-          const isActive = activeButton === index;
-          const isInactive = activeButton !== null && activeButton !== index;
-  
-          return (
+`;
+
+const SocialMediaButtons = () => {
+const [activeButton, setActiveButton] = useState(null);
+
+return (
+    <Container>
+    {socialMedia.map((media, index) => {
+        const IconComponent = media.icon;
+        const isActive = activeButton === index;
+        const isInactive = activeButton !== null && activeButton !== index;
+
+        return (
+        <a
+            key={media.name}
+            href={media.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseEnter={() => setActiveButton(index)}
+            onMouseLeave={() => setActiveButton(null)}
+        >
             <Button
-              key={media.name}
-              color={media.color}
-              active={isActive}
-              inactive={isInactive}
-              onMouseEnter={() => setActiveButton(index)}
-              onMouseLeave={() => setActiveButton(null)}
+            color={media.color}
+            active={isActive}
+            inactive={isInactive}
             >
-              <Icon active={isActive}>
+            <Icon active={isActive}>
                 <IconComponent />
-              </Icon>
+            </Icon>
             </Button>
-          );
-        })}
-      </Container>
-    );
-  };
+        </a>
+        );
+    })}
+    </Container>
+);
+};
 
 const About = () => {
     return (        

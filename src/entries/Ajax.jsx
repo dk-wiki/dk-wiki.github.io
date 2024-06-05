@@ -7,50 +7,75 @@ const contents = [
         id: "early-life"
     },
     {
-        title: "Death",
-        id: "death"
+        title: "Discovery as Gluttonite",
+        id: "discovery-as-gluttonite"
     },
     {
-        title: "Legacy",
-        id: "legacy"
+        title: "Training",
+        id: "discovery-as-gluttonite"
+    },
+    {
+        title: "Promiscuity",
+        id: "promiscuity"
     }
 ]
+
+const infoData = [
+    { label: "Height", value: "242 cm (7 ft 11 in)" },
+    { label: "Average Weight", value: "187 kg (412 lbs)" },
+];
 
 const Ajax = () => {
     return (
         <div>
             <EntryTitle>Ajax</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Ajax_the_Great">Ajax the Great</EntryNTBC>
-            <EntryIntroduction imgSrc="Ajax.png" imgDesc="Ajax posing.">
-                <b>Ajax</b> was a Spartan warrior and commander of something to do with war and shit. I don't know, I'm just working on the website, man.
-                Here's a <EA href="google.com">link</EA>, just to test things I suppose. I don't really know what I'm doing.
+            <EntryIntroduction imgSrc="Ajax.png" imgDesc="A depiction of Ajax." infoTableData={infoData}>
+                <b>Ajax of Amyclae</b> is a distinguished Spartan military commander known for his strength and strategic prowess. Ajax is one of the known <EA href="#/entries/Gluttonite">Gluttonites</EA> with
+                some of the most discinct qualities in containment and natural digestion.
                 <EBr />
-                Did you know that the Spartans used to only eat this weird soup with pigs blood and vinegar in it? It was called Melas Zomos, or black soup, and looked like the equivalent of eating poison. It made them strong, sure, but
-                I think Ajax's decision to eat only plants was more than justified if they were feeding that crap to him.
+                Ajax was appointed as a lochagos, or company commander, where his unconventional methods led to a significant Spartan victory. He was later then trusted with training new members of the Spartan army, and disposing
+                of those who were deemed too weak or unworthy. His methods earned him the nickname "The Little Meatball" among his peers.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
-                Ajax was born to a woman, and that's all we know. He was probably breastfed which I think would look quite funny. Anyways, so he's Spartan, but some of you people are still calling him a gladiator for some stupid reason.
-                Gladiators were from ancient <i>Rome</i>, not Sparta, you uncultured morons. Varius quam quisque id diam vel quam elementum pulvinar. Curabitur gravida arcu ac tortor dignissim. Eu sem integer vitae justo eget magna. Aliquet risus feugiat in ante. Etiam tempor orci eu lobortis elementum nibh tellus. Condimentum vitae sapien pellentesque habitant morbi. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Neque volutpat ac tincidunt vitae semper quis lectus. Tortor id aliquet lectus proin nibh nisl condimentum. Consequat mauris nunc congue nisi.
+                Ajax was born in the village of <EA href="https://en.wikipedia.org/wiki/Amyclae">Amyclae</EA> (former <EA href="https://en.wikipedia.org/wiki/Amykles">Amykles</EA>). His family, while not part of the royal line,
+                held significant local influence. His father was a respected landowner and a former warrior who had earned the privilege of moving the family to <EA href="https://en.wikipedia.org/wiki/Sparta">Sparta</EA>. At a young age, Ajax
+                and his family relocated to Sparta, where he began his formal training in the <EA href="https://en.wikipedia.org/wiki/Agoge">agoge</EA> system. He was mentored by experienced soldiers and participated in
+                the <EA href="https://en.wikipedia.org/wiki/Crypteia">krypteia</EA>, a secret service meant to train young Spartans in survival, stealth, and combat.
             </EntryParagraph>
             <EntryParagraph>
-            Feugiat sed lectus vestibulum mattis. Non arcu risus quis varius quam quisque id. Facilisis volutpat est velit egestas dui id ornare arcu. Faucibus scelerisque eleifend donec pretium vulputate sapien. Metus vulputate eu scelerisque felis. Non sodales neque sodales ut. Vitae et leo duis ut. Lacus laoreet non curabitur gravida arcu ac tortor. Varius sit amet mattis vulputate. Congue nisi vitae suscipit tellus mauris a diam. Sed cras ornare arcu dui vivamus. Duis ultricies lacus sed turpis tincidunt id. Nec ullamcorper sit amet risus nullam. Venenatis urna cursus eget nunc scelerisque viverra. Convallis tellus id interdum velit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc. Mi proin sed libero enim sed faucibus turpis.
-            <EBr />
-            Interdum consectetur libero id faucibus nisl. Mauris in aliquam sem fringilla ut morbi tincidunt. Viverra nam libero justo laoreet sit amet cursus. Nibh tellus molestie nunc non blandit massa enim nec dui. Egestas purus viverra accumsan in nisl nisi scelerisque. Tincidunt praesent semper feugiat nibh sed pulvinar. Ipsum dolor sit amet consectetur adipiscing elit duis. Nunc sed velit dignissim sodales ut eu. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Aliquet sagittis id consectetur purus ut faucibus. Interdum consectetur libero id faucibus nisl. Lectus vestibulum mattis ullamcorper velit sed ullamcorper. Proin fermentum leo vel orci porta non.
-            </EntryParagraph>
-            <EntryQuote attr="Ajax, 2024">
-                I'm going to eat and murder you
-            </EntryQuote>
-            <EHr />
-            <EntrySubTitle jid="death">Death</EntrySubTitle>
-            <EntryParagraph>
-                Ajax died heroically in battle after he was betrayed by his own men or something. I don't know, I haven't made this lore yet. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Scelerisque varius morbi enim nunc. Amet justo donec enim diam vulputate ut pharetra. Tellus molestie nunc non blandit. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Neque gravida in fermentum et sollicitudin. Id cursus metus aliquam eleifend. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Cursus risus at ultrices mi tempus imperdiet nulla. Felis donec et odio pellentesque diam volutpat. Quis eleifend quam adipiscing vitae proin. Convallis tellus id interdum velit. Arcu bibendum at varius vel pharetra vel turpis nunc eget. Urna porttitor rhoncus dolor purus. Eu non diam phasellus vestibulum lorem sed risus. Lacinia quis vel eros donec ac odio tempor orci dapibus. Vulputate odio ut enim blandit volutpat. Accumsan lacus vel facilisis volutpat est velit egestas.
+                Ajax went on to lead a glorious military career, leading his men to victory in many battles and devoured all those who stood in his way. Countless armies and soliders met their fates in Ajax's stomach, earning his name as one of the most feared
+                commanders in Sparta.
             </EntryParagraph>
             <EHr />
-            <EntrySubTitle jid="legacy">Legacy</EntrySubTitle>
+            <EntrySubTitle jid="discovery-as-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
-                Because of his efforts for the Spartan army, he was remembered as a small plushie in the Spartan gift shop. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed arcu non odio euismod lacinia at quis. Duis convallis convallis tellus id interdum velit. Sociis natoque penatibus et magnis dis parturient montes nascetur. Ante metus dictum at tempor commodo ullamcorper. Magna sit amet purus gravida quis blandit turpis. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Arcu non sodales neque sodales ut etiam sit amet. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Rhoncus aenean vel elit scelerisque. Pretium viverra suspendisse potenti nullam ac tortor vitae purus. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Proin fermentum leo vel orci porta non pulvinar.
+                Ajax is one of the known <EA href="#/entries/Gluttonite">Gluttonites</EA>. It is currently unknown how he discovered his ability. As a Gluttonite, Ajax devours his opponents in a glorious display of strength. Due to his impressive size, he can consume
+                two to three average sized soldiers without impeding his fighting. While he can hold more inside him, he often refrains from doing so to avoid impacting his mobility, at least until the current occupants are fully digested.
+                His stomach acids are some of the most powerful naturally occuring, and are able to digest an entire solider, including armour, within a matter of minutes.
+            </EntryParagraph>
+            <EntryParagraph>
+                Ajax consumes prey through his helmet, which opens up to a desired width to allow for prey to enter. Swallowing a solider takes a matter of seconds, often before the solider realised what was happening. Once inside his stomach, the prey is
+                tightly compressed and coated in stomach acid before being dissolved. Ajax generally has a muscular physique, which meant any contained prey would not jostle around during combat until they had been fully digested and converted into fat and muscle. 
+            </EntryParagraph>
+            <EHr />
+            <EntrySubTitle jid="training">Training</EntrySubTitle>
+            <EntryParagraph>
+                The conditions to fight in Ajax's army are strict. Soliders are required to be in peak physical condition, and are often assessed and closely observed by Ajax himself. Those who are deemed too weak or unworthy are consumed by Ajax, as converting them
+                into his mass would be more beneficial to his army than to waste further resources on them. Most of the time, Ajax will consume the solider in front of the rest of the army, as a reminder of the consequences of failure. Training will then continue as normal while
+                the rest of the army listens to the ambient gurgling of their former comrade being digested.
+            </EntryParagraph>
+            <EntryParagraph>
+                Ajax's training focuses on both strength and cardio, which is often quite intense and rigorous beyond average abilities. Soldiers aren't be held to the same standards as Ajax, but they are expected to be able to keep up with him in combat. Ajax is extremely
+                patriotic and loyal to Sparta, which is often his motivation to continue his training and fighting in the army. If he needs to consume one of his own men, he would do it in the name of Sparta.
+            </EntryParagraph>
+            <EHr />
+            <EntrySubTitle jid="promiscuity">Promiscuity</EntrySubTitle>
+            <EntryParagraph>
+                Ajax frequently has sexual encounters with his soldiers, and is also known for having a non-zero mortality rate in intercourse due to the size of his cock. Battling along side his fellow Spartan often develops a high amount of testosterone and a strong
+                camaraderie, which often leads to him having sex with many of his strongest men in an act of uncontrollable lust. 
             </EntryParagraph>
         </div>
     );

@@ -11,7 +11,7 @@ const HomePage = () => {
                     <h2 className="text-left text-2xl">Welcome to</h2>
                     <h1 className="text-5xl mb-10">The Encyclopedia of Hunger</h1>
                     <p>
-                        The Encyclopedia of Hunger is the largest collection of knowledge about the mysterious entities known as the _EGGS_. Here you will find information on what we know about them.
+                        The largest collection of information on Gluttonites and their abilities. Here, you can find detailed information on the various Gluttonites discovered, their abilities, and their history.
                     </p>
                 </div>
                 

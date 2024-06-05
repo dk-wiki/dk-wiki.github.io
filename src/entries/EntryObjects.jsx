@@ -72,11 +72,14 @@ export const EntrySubTitle = ({ children, jid }) => {
     );
 }
 
-export const EntryIntroduction = ({ children, imgSrc, imgDesc }) => {
+export const EntryIntroduction = ({ children, imgSrc, imgDesc, infoTableData }) => {
     return (
         <div className="flex flex-col md:flex-row items-start m-4 p-4 border rounded-lg shadow-lg">
-            <div className="md:w-3/4 text-left">
+            <div className={`text-left ${imgSrc ? 'md:w-3/4' : 'w-full'}`}>
                 <p className="mb-4 text-lg leading-relaxed">{children}</p>
+                {infoTableData && (
+                    <EntryInfoTable data={infoTableData} />
+                )}
             </div>
             {imgSrc && (
                 <div className="md:w-1/4 md:ml-4 mt-4 md:mt-0 flex flex-col items-center">
@@ -86,11 +89,47 @@ export const EntryIntroduction = ({ children, imgSrc, imgDesc }) => {
             )}
         </div>
     );
-}
+};
+
+EntryIntroduction.propTypes = {
+    children: PropTypes.node.isRequired,
+    imgSrc: PropTypes.string,
+    imgDesc: PropTypes.string,
+    infoTableData: PropTypes.arrayOf(
+        PropTypes.shape({
+            label: PropTypes.string.isRequired,
+            value: PropTypes.string.isRequired,
+        })
+    ),
+};
+
+export const EntryInfoTable = ({ data }) => {
+    return (
+        <table className="min-w-full bg-white">
+            <tbody>
+                {data.map((item, index) => (
+                    <tr key={index} className="border-b">
+                        <td className="px-4 py-1 font-medium text-gray-800">{item.label}</td>
+                        <td className="px-4 py-1 text-gray-600">{item.value}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    );
+};
+
+EntryInfoTable.propTypes = {
+    data: PropTypes.arrayOf(
+        PropTypes.shape({
+            label: PropTypes.string.isRequired,
+            value: PropTypes.string.isRequired,
+        })
+    ).isRequired,
+};
 
 export const EntryParagraph = ({ children }) => {
     return (
-        <p className="text-left m-2">{children}</p>
+        <p className="text-left m-2 mb-6">{children}</p>
     );
 }
 
@@ -136,3 +175,66 @@ export const EHr = () => {
         <hr className="border-gray-400 mt-3" />
     );
 }
+
+export const Eul = ({ children }) => {
+    return (
+        <ul className="list-disc pl-5 my-4">
+            {children}
+        </ul>
+    );
+};
+
+export const ETable = ({ data }) => {
+    const headers = Object.keys(data[0]).filter(key => key !== 'Link');
+
+    return (
+        <div className="overflow-x-auto text-left">
+            <table className="min-w-full bg-white divide-y divide-gray-200">
+                <thead className="bg-gray-50">
+                    <tr>
+                        {headers.map((key) => (
+                            <th
+                                key={key}
+                                className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                            >
+                                {key}
+                            </th>
+                        ))}
+                    </tr>
+                </thead>
+                <tbody className="bg-white divide-y divide-gray-200">
+                    {data.map((row, index) => (
+                        <tr key={index}>
+                            {headers.map((key, cellIndex) => (
+                                <td
+                                    key={cellIndex}
+                                    className="px-3 py-2 text-sm text-gray-700 break-words"
+                                >
+                                    {key === "Name" && row.Link ? (
+                                        <a href={row.Link} className="text-blue-500 hover:underline">
+                                            {row.Name}
+                                        </a>
+                                    ) : (
+                                        row[key]
+                                    )}
+                                </td>
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+};
+
+
+ETable.propTypes = {
+    data: PropTypes.arrayOf(
+        PropTypes.shape({
+            Name: PropTypes.string.isRequired,
+            Description: PropTypes.string.isRequired,
+            Discovered: PropTypes.string.isRequired,
+            Link: PropTypes.string,
+        })
+    ).isRequired,
+};

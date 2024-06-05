@@ -11,9 +11,11 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <div className="flex-shrink-0">
-                            <img className="h-10 w-10" src="logo.svg" alt="Logo" />
-                        </div>
+                        <a href="/">
+                            <div className="flex-shrink-0">
+                                <img className="h-10 w-10" src="logo.svg" alt="Logo" />
+                            </div>
+                        </a>
                         <a href="/">
                             <div className="ml-8 hidden md:block">
                                 <h1 className="text-white text-lg font-bold">The Encyclopedia of Hunger</h1>

@@ -2,12 +2,18 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import TheExecutioner from './TheExecutioner';
 import Ajax from './Ajax';
+import Atlas from './Atlas';
+import Goliath from './Goliath';
 import Gluttonite from './Gluttonite';
+import AtlasAndGoliath from './AtlasAndGoliath';
 
 const entryComponents = {
     "The_Executioner": TheExecutioner,
     "Ajax": Ajax,
     "Gluttonite": Gluttonite,
+    "Atlas": Atlas,
+    "Goliath": Goliath,
+    "Atlas_and_Goliath": AtlasAndGoliath,
 };
 
 const Entry = () => {

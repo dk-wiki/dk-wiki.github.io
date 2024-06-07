@@ -13,7 +13,7 @@ const contents = [
     },
     {
         title: "Features as a Gluttonite",
-        id: "discovery-as-gluttonite"
+        id: "features-as-a-gluttonite"
     }
 ]
 
@@ -25,6 +25,11 @@ const TheExecutioner = () => {
                 <b>The Executioner</b> is a Gluttonite known for his role as an official executioner with the chosen method being consuming and digesting the condemned. While most know of him as a ruthless and merciless
                 figure, he sepnds most of his time in solitude. The Executioner is a very private individual, with few knowing his true identity or his past. His loyalty to his kingdom is unwavering, with him dedicating
                 his life to his obligations, even if it cost him a social life and personal relationships.
+                <EBr />
+                The Executioner is extremely tall, and carries around a large, ball-shaped belly that is always growling and gurgling. He is always seen wearing a tight, dark mask that covered his entire face. His face
+                is quite chilsed and angular, with a strong jawline and high cheekbones. His eyes are a piercing red that seem to glow in the dark. The executioner often wears a grey kilt and a black belt with a golden buckle.
+                He wears black gloves and boots, and is always seen carrying a large, double-edged axe, even though he rarely uses it. The Executioner has an extremely high amount of muscle mass and body hair which covers
+                his entire body. During official events, he wears black shoulder pads and a black cape.  
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="role-as-an-executioner">Role as an Executioner</EntrySubTitle>
@@ -38,7 +43,7 @@ const TheExecutioner = () => {
                 it's believe that it isn't due to a desire to uphold the law, nor is it due to a need for justice. Most speculate he is hiding from a past life he wishes to escape from by sacrificing his identity.
             </EntryParagraph>
             <EHr />
-            <EntrySubTitle jid="discovery-as-gluttonite">Features as a Gluttonite</EntrySubTitle>
+            <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
                 The Executioner is a known <EA href="#/entries/Gluttonite">Gluttonite</EA>. While his digestive abilities are not as impressive as other Gluttonites, his stomach capacity is unrivaled, especially with his ability to remain
                 mobile even while digesting over ten people at a time. This, however, does not reflect his sheer capacity, as he has been known to consume over twenty people in a single sitting without any signs of discomfort. Digestion

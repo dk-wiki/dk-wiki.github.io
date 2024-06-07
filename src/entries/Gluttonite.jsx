@@ -20,15 +20,11 @@ const contents = [
 ]
 
 const noArticleGluts = [
-    {
-        Name: "Atlas",
-        Description: "The smaller half of the gladiator duo \"Atlas and Goliath\", known for his speed and agility.",
-        Discovered: "May 8, 2021",
-    }, {
+/*     {
         Name: "Goliath",
         Description: "A fierce gladiator renowned for his abilities to englut his opponents. The larger half of the gladiator duo \"Atlas and Goliath\".",
         Discovered: "May 8, 2021",
-    }
+    } */
 ];
 
 const Gluttonite = () => {
@@ -86,6 +82,10 @@ const Gluttonite = () => {
                 Gluttonites with a larger belly tend to contain an enlarged stomach with a substantial amount of acid inside, however, some stomachs can be quite small and compact with a high acid concentration. The digestion process for
                 an entire average sized invidual can take anywhere from a few minutes to a few hours, where the individual is surrounded by a warm acid before being broken down into a chyme-like substance. This substance is then absorbed
                 into the Gluttonite's body, where it is converted into fat and muscle. This process is completely efficient, with no waste being produced.
+            </EntryParagraph>
+            <EntryParagraph>
+                A Gluttonite also holds the ability to help break down their prey by adding pressure, often though a physical punch or squeeze, onto their stomach. This can help speed up the digestion process, and can help weaken the prey
+                and move the acid around the occupant's body. This process is often used in combat situations to allow for the Gluttonite to consume more prey in a shorter amount of time.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="list-of-known-gluttonites">List of Known Gluttonites</EntrySubTitle>

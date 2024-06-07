@@ -7,8 +7,8 @@ const contents = [
         id: "early-life"
     },
     {
-        title: "Discovery as Gluttonite",
-        id: "discovery-as-gluttonite"
+        title: "Features as a Gluttonite",
+        id: "features-as-a-gluttonite"
     },
     {
         title: "Training",
@@ -36,6 +36,9 @@ const Ajax = () => {
                 <EBr />
                 Ajax was appointed as a lochagos, or company commander, where his unconventional methods led to a significant Spartan victory. He was later then trusted with training new members of the Spartan army, and disposing
                 of those who were deemed too weak or unworthy. His methods earned him the nickname "The Little Meatball" among his peers.
+                <EBr />
+                Ajax has a naturally muscular physique, proudly sporting his muscles and rarely wearing clothes to cover them. Ajax's helmet is a golden Spartan helmet with a red crest, with white stripes and a black base. His helmet
+                is able to warp to display his expression, and can open up to a desired width to allow for prey to enter.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
@@ -50,7 +53,7 @@ const Ajax = () => {
                 commanders in Sparta.
             </EntryParagraph>
             <EHr />
-            <EntrySubTitle jid="discovery-as-gluttonite">Features as a Gluttonite</EntrySubTitle>
+            <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
                 Ajax is one of the known <EA href="#/entries/Gluttonite">Gluttonites</EA>. It is currently unknown how he discovered his ability. As a Gluttonite, Ajax devours his opponents in a glorious display of strength. Due to his impressive size, he can consume
                 two to three average sized soldiers without impeding his fighting. While he can hold more inside him, he often refrains from doing so to avoid impacting his mobility, at least until the current occupants are fully digested.
@@ -58,7 +61,7 @@ const Ajax = () => {
             </EntryParagraph>
             <EntryParagraph>
                 Ajax consumes prey through his helmet, which opens up to a desired width to allow for prey to enter. Swallowing a solider takes a matter of seconds, often before the solider realised what was happening. Once inside his stomach, the prey is
-                tightly compressed and coated in stomach acid before being dissolved. Ajax generally has a muscular physique, which meant any contained prey would not jostle around during combat until they had been fully digested and converted into fat and muscle. 
+                tightly compressed and coated in stomach acid before being dissolved. Ajax generally has a muscular physique, which means any contained prey won't jostle around during combat until they're fully digested and converted into fat and muscle. 
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="training">Training</EntrySubTitle>

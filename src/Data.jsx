@@ -30,7 +30,7 @@ export const CHARACTERS = [
         id: "1z8p",
         name: "Atlas",
         description: "The smaller half of the gladiator duo \"Atlas and Goliath\", known for his speed and agility.",
-        image: null,
+        image: "Atlas.png",
         link: "#/entries/Atlas",
         posted: "May 8, 2021",
         category: "Gluttonite"
@@ -39,7 +39,7 @@ export const CHARACTERS = [
         id: "ucc4",
         name: "Goliath",
         description: "A fierce gladiator renowned for his abilities to englut his opponents. The larger half of the gladiator duo \"Atlas and Goliath\".",
-        image: null,
+        image: "Goliath.png",
         link: "#/entries/Goliath",
         posted: "May 8, 2021",
         category: "Gluttonite"

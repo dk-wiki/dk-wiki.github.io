@@ -26,7 +26,7 @@ const Atlas = () => {
         <div>
             <EntryTitle>Atlas</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Atlas_(mythology)">Atlas (Mythology)</EntryNTBC>
-            <EntryIntroduction infoTableData={infoData}>
+            <EntryIntroduction infoTableData={infoData} imgSrc="Atlas.png" imgDesc="A depiction of Atlas preparing for a game.">
                 <b>Atlas</b> is a gladiator best known for his role in the duo "Atlas and Goliath". He is the smaller half of the duo, and is known for his speed and agility. Atlas is a known Gluttonite, though he rarely consumes his opponents.
                 Atlas was never formally trained as a gladiator, however, he was taken under the wing of the gladiator Goliath and trained in secret. The two formed the duo "Atlas and Goliath", where they generally fight in execution matches,
                 or against other gladiators to the death.

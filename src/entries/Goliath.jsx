@@ -30,13 +30,14 @@ const Goliath = () => {
         <div>
             <EntryTitle>Goliath</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Goliath">Goliath</EntryNTBC>
-            <EntryIntroduction infoTableData={infoData}>
+            <EntryIntroduction infoTableData={infoData} imgSrc="Goliath.png" imgDesc="A depiction of Goliath.">
                 <b>Goliath</b> is a gladiator best known for his role in the duo "Atlas and Goliath". He is the bigger half of the duo, and is known for his size and strength. Goliath is a known Gluttonite, and is the primary consumer of their opponents during
                 matches. Goliath was trained in a gladiator school in Rome, where he excelled in combat techniques and weaponry. He later paired with Atlas, a smaller gladiator who he trained in secret. The two formed the duo "Atlas and Goliath", where they
                 generally fight in execution matches, or against other gladiators to the death.
                 <EBr />
                 Goliath is extremely large, with a high body fat percentage and a large, soft stomach. He wears a golden Thraex helmet, bent to account for his neck fat. He wears a gray kilt and a black belt with a golden buckle. From his belt, he wears
-                black leather pteruges, and golden greaves and shoes. He occasionally wears a belt around his chest and back to keep his stomach in place. He is also covered in a thick layer of body hair over his entire body.
+                black leather pteruges, and golden greaves and shoes. He occasionally wears a belt around his chest and back to keep his stomach in place. He is also covered in a thick layer of body hair over his entire body. He has two golden nipple piercings
+                
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>

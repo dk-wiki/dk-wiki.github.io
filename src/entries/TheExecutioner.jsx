@@ -27,7 +27,7 @@ const TheExecutioner = () => {
                 his life to his obligations, even if it cost him a social life and personal relationships.
                 <EBr />
                 The Executioner is extremely tall, and carries around a large, ball-shaped belly that is always growling and gurgling. He is always seen wearing a tight, dark mask that covered his entire face. His face
-                is quite chilsed and angular, with a strong jawline and high cheekbones. His eyes are a piercing red that seem to glow in the dark. The executioner often wears a grey kilt and a black belt with a golden buckle.
+                is quite chilsed and angular, with a strong jawline and high cheekbones. His eyes are a piercing red that seem to glow in the dark. The executioner often wears a gray kilt and a black belt with a golden buckle.
                 He wears black gloves and boots, and is always seen carrying a large, double-edged axe, even though he rarely uses it. The Executioner has an extremely high amount of muscle mass and body hair which covers
                 his entire body. During official events, he wears black shoulder pads and a black cape.  
             </EntryIntroduction>

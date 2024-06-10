@@ -46,9 +46,9 @@ const Gluttonite = () => {
         <div>
             <EntryTitle>Gluttonite</EntryTitle>
             <EntryIntroduction>
-                <b>Gluttonites</b>, formally known as <i>Anthropophagorum Voracitas</i>, are a predatory human subspecies or humanoid species with the ability to swallow large quantities whole, including live creatures.
-                These entities are characterized by their insatiable appetite and extraordinary digestive capabilities, enabling them to rapidly dissolve and assimilate their prey. While it is currently unknown
-                how such a being is biologically defined, they generally physically appear as human or humanoid with human level intelligence.
+                <b>Gluttonites</b>, formally known as <i>Anthropophagorum Voracitas</i>, are a predatory human subspecies or humanoid species with the remarkable ability to swallow large quantities whole,
+                including live creatures. These entities are characterized by their insatiable appetite and extraordinary digestive capabilities, enabling them to rapidly dissolve and assimilate their prey.
+                While the precise biological definition of such beings remains a mystery, they generally possess a human or humanoid appearance and exhibit human-level intelligence.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="classification">Classification</EntrySubTitle>
@@ -63,34 +63,34 @@ const Gluttonite = () => {
                     <li><b>Genus:</b> Anthropophagorum</li>
                     <li><b>Order:</b> Voracitas</li>
                 </Eul>
-                Typical majority of Gluttonite heights range from 1.8 meters to 3.5 meters, with resting weights of generally within the range of 80 kg to 300 kg. Gluttonites tend to be quite muscular
-                considering the amount of protein they consume, however, it is very common for their physiques to also contain a substantially high body fat percentage. It is unknown what the face of a Gluttonite looks like.
-                as typically they are depicted with a form of face covering, like a mask or a helmet.
+                The typical height of Gluttonites ranges from 1.8 meters to 3.5 meters, with resting weights generally within the range of 80 kg to 300 kg. Given their substantial protein intake, Gluttonites
+                tend to be quite muscular; however, it is also common for them to have a significantly high body fat percentage. The true appearance of a Gluttonite's face remains unknown, as they are typically
+                depicted with some form of face covering, such as a mask or helmet.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="consumption-and-digestion">Consumption and Digestion</EntrySubTitle>
             <EntryParagraph>
-                Most Gluttonites remain masked or helmeted unless they are consuming prey, where their helmet/mask will reveal an opening. It is also believed they possess an incredibly wide maw, capable of fitting even the widest frames.
-                It is certainly possible that other methods or orifices were used.
+                Most Gluttonites remain masked or helmeted unless they are consuming prey, at which point their helmet or mask reveals an opening. It is believed that they possess an incredibly wide maw, capable of
+                accommodating even the broadest frames. It is also speculated that they may employ other methods or orifices for consumption.
             </EntryParagraph>
             <EntryParagraph>
-                While the methods of consumption is still up for debate, there is ample documentation of their digestive process. The stomachs of Gluttonites maintain a hyper-acidic environment with a pH ranging from 0.5 to 1.0,
-                significantly more acidic than the human stomach (pH 1.5 to 3.5). This extreme acidity is achieved through the secretion of a specialized acid, which is a potent mixture of hydrochloric acid (HCl) and unique organic acids.
-                This acid not only breaks down organic matter rapidly but also various other substances, like metals and plastics.  
+                While the methods of consumption remain a topic of debate, there is ample documentation of their digestive process. The stomachs of Gluttonites maintain a hyper-acidic environment with a pH ranging from
+                0.5 to 1.0, significantly more acidic than the human stomach, which has a pH of 1.5 to 3.5. This extreme acidity is achieved through the secretion of a specialized acid, a potent mixture of hydrochloric acid
+                (HCl) and unique organic acids. This acid rapidly breaks down organic matter and can also dissolve various other substances, such as metals and plastics.
             </EntryParagraph>
             <EntryParagraph>
-                Gluttonites with a larger belly tend to contain an enlarged stomach with a substantial amount of acid inside, however, some stomachs can be quite small and compact with a high acid concentration. The digestion process for
-                an entire average sized invidual can take anywhere from a few minutes to a few hours, where the individual is surrounded by a warm acid before being broken down into a chyme-like substance. This substance is then absorbed
-                into the Gluttonite's body, where it is converted into fat and muscle. This process is completely efficient, with no waste being produced.
+                Gluttonites with larger bellies typically have an enlarged stomach containing a substantial amount of acid, whereas some have small, compact stomachs with highly concentrated acid. The digestion process for
+                an entire average-sized individual can take anywhere from a few minutes to a few hours. During this process, the individual is enveloped by warm acid and broken down into a chyme-like substance. This
+                substance is then absorbed into the Gluttonite's body, where it is converted into fat and muscle. The process is entirely efficient, producing no waste.
             </EntryParagraph>
             <EntryParagraph>
-                A Gluttonite also holds the ability to help break down their prey by adding pressure, often though a physical punch or squeeze, onto their stomach. This can help speed up the digestion process, and can help weaken the prey
-                and move the acid around the occupant's body. This process is often used in combat situations to allow for the Gluttonite to consume more prey in a shorter amount of time.
+                A Gluttonite also possesses the ability to expedite the digestion process by applying pressure, often through a physical punch or squeeze, to their stomach. This technique helps to weaken the prey and circulate
+                the acid around the occupant's body, thereby accelerating digestion. This method is frequently employed in combat situations, enabling the Gluttonite to consume more prey in a shorter amount of time.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="list-of-known-gluttonites">List of Known Gluttonites</EntrySubTitle>
             <EntryParagraph>
-                Below is a list of known Gluttonites, including their date of discovery and a brief description of their abilities. This list is currently incomplete and will be updated as more information is gathered.
+                Below is a list of known Gluttonites, including their date of discovery and a brief description of their abilities. This list is currently incomplete and will be updated as more information becomes available.
             </EntryParagraph>
             <ETable data={knownGluts} />
         </div>

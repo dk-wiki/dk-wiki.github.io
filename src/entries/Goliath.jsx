@@ -31,49 +31,49 @@ const Goliath = () => {
             <EntryTitle>Goliath</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Goliath">Goliath</EntryNTBC>
             <EntryIntroduction infoTableData={infoData} imgSrc="Goliath.png" imgDesc="A depiction of Goliath.">
-                <b>Goliath</b> is a gladiator best known for his role in the duo "Atlas and Goliath". He is the bigger half of the duo, and is known for his size and strength. Goliath is a known Gluttonite, and is the primary consumer of their opponents during
-                matches. Goliath was trained in a gladiator school in Rome, where he excelled in combat techniques and weaponry. He later paired with Atlas, a smaller gladiator who he trained in secret. The two formed the duo "Atlas and Goliath", where they
-                generally fight in execution matches, or against other gladiators to the death.
+                <b>Goliath</b> is a gladiator best known for his role in the duo "Atlas and Goliath." As the larger half of the duo, he is renowned for his immense size and strength. Goliath is a known Gluttonite and serves as the primary consumer of
+                their opponents during matches. Trained in a prestigious gladiator school in Rome, he excelled in combat techniques and weaponry. He later paired with Atlas, a smaller gladiator whom he trained in secret. Together, they formed the duo
+                "Atlas and Goliath," participating in execution matches and deadly combat against other gladiators.
                 <EBr />
-                Goliath is extremely large, with a high body fat percentage and a large, soft stomach. He wears a golden Thraex helmet, bent to account for his neck fat. He wears a gray kilt and a black belt with a golden buckle. From his belt, he wears
-                black leather pteruges, and golden greaves and shoes. He occasionally wears a belt around his chest and back to keep his stomach in place. He is also covered in a thick layer of body hair over his entire body. He has two golden nipple piercings
-                
+                Goliath is immensely large, with a high body fat percentage and a large, soft stomach. He dons a golden Thraex helmet, custom-bent to accommodate his neck fat. His attire includes a gray kilt, a black belt with a golden buckle, black leather
+                pteruges, and golden greaves and shoes. Occasionally, he wears a belt around his chest and back to keep his stomach in place. His body is covered in a thick layer of hair, and he sports two golden nipple piercings.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
-                Goliath was born in the city of <EA href="https://en.wikipedia.org/wiki/Carthage">Carthage</EA> and was the son of a legionary. He grew up near a Roman military camp, surrounded by soliders and combat training. During a local skirmis, he was
-                captured and sold into slavery, where a <EA href="https://en.wikipedia.org/wiki/Gladiator#Schools_and_training">lanista</EA> purchased him and sent him to train in a gladiatorial school in Rome. Goliath recieved a formal training as
-                a <EA href="https://en.wikipedia.org/wiki/Secutor">secutor</EA> and was known for his skill with the <EA href="https://en.wikipedia.org/wiki/Scutum_(shield)">scutum</EA> and <EA href="https://en.wikipedia.org/wiki/Gladius">gladius</EA>.
+                Goliath was born in the city of <EA href="https://en.wikipedia.org/wiki/Carthage">Carthage</EA> as the son of a legionary. Growing up near a Roman military camp, he was surrounded by soldiers and combat training. During a local skirmish,
+                he was captured and sold into slavery. A <EA href="https://en.wikipedia.org/wiki/Gladiator#Schools_and_training">lanista</EA> purchased him and sent him to train in a gladiatorial school in Rome. Goliath received formal training as
+                a <EA href="https://en.wikipedia.org/wiki/Secutor">secutor</EA> and became renowned for his prowess with the <EA href="https://en.wikipedia.org/wiki/Scutum_(shield)">scutum</EA> and <EA href="https://en.wikipedia.org/wiki/Gladius">gladius</EA>.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="solo-career">Solo Career</EntrySubTitle>
             <EntryParagraph>
-                Goliath made a name for himself in his first <EA href="https://en.wikipedia.org/wiki/Gladiator">gladiator</EA> appearance in the <EA href="https://en.wikipedia.org/wiki/Colosseum">Colosseum</EA>, where he used his extremely high body fat percentage and size to his advantage. At the time, most gladiators were
-                lean and muscular, and a larger fighter like Goliath would have been met with ridicule. Most of his fellow gladiators treated him poorly because of it, however, when they came face to face with him in the arena, they realised that such
-                ridicule was not going to save them from his unrelenting strength. Goliath quickly became a crowd favorite and revolutionized the way people viewed the gladiatorial games. At this time, he was not yet a known <EA href="#/entries/Gluttonite">Gluttonite</EA>.
-                and had no interest in consuming his opponents.
+                Goliath made a name for himself in his first gladiator appearance in the <EA href="https://en.wikipedia.org/wiki/Colosseum">Colosseum</EA>, where he used his immense body fat and size to his advantage. At the time, most gladiators were lean
+                and muscular, and a larger fighter like Goliath would have been met with ridicule. His fellow gladiators treated him poorly because of his size. However, when they faced him in the arena, they quickly realized that ridicule would not save
+                them from his unrelenting strength. Goliath swiftly became a crowd favorite, revolutionizing the perception of gladiatorial combat. At this time, he was not yet known as a <EA href="#/entries/Gluttonite">Gluttonite</EA> and had no interest
+                in consuming his opponents.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="discovery-as-gluttonite">Discovery as Gluttonite</EntrySubTitle>
             <EntryParagraph>
-                Goliath's fame had earned in many fans, one of which was <EA href="#/entries/Atlas">Atlas</EA>, the son of a butcher. Atlas offered to sneak Goliath food from his family's butcher shop in return for training. Goliath was hesitant at first, but
-                after seeing Atlas's determination, he agreed to train him in secret. Goliath consumed an unnaturally large amount of food during their training sessions, and Atlas was fascinated by his ability to consume so much. It wasn't until Atlas
-                witnessed suggested that Goliath consume a fallen opponent before a match that Goliath revealed his <EA href="#/entries/Gluttonite">Gluttonite</EA> abilities. After knocking out his opponent, Goliath consumed him whole, much to the shock of the
-                crowd. Goliath, after this event, simply let out a deep belch and a chuckle, before lugging his belly back to the holding area. Goliath's digestive abilities were quite impressive, as by the time Atlas had reached the holding area, the
-                ingested gladiator had been churned almost entirely.
+                Goliath's fame earned him many fans, one of whom was <EA href="#/entries/Atlas">Atlas</EA>, the son of a butcher. Atlas offered to sneak Goliath food from his family's butcher shop in return for training. Goliath was hesitant at first, but
+                after seeing Atlas's determination, he agreed to train him in secret. During their training sessions, Goliath consumed an unnaturally large amount of food, and Atlas was fascinated by his capacity. It wasn't until Atlas suggested that Goliath
+                consume a fallen opponent before a match that Goliath revealed his <EA href="#/entries/Gluttonite">Gluttonite</EA> abilities.
             </EntryParagraph>
             <EntryParagraph>
-                Goliath is able to hold a large amount of fighters in his stomach, and can digest them in a matter of minutes. During several sponsored events, Goliath could contain over a dozen fighters in his stomach, and would often require Atlas to help
-                carry him back to the holding area. Goliath is naturally heavyset, and would often struggle to move quickly, especially after consuming several fighters. However, his fighting abilities is not be hindered by this unless he had gorged on
-                too many fighters. 
+                In the heat of battle, Goliath knocked out his opponent and consumed him whole, much to the shock of the crowd. After this astonishing display, Goliath let out a deep belch and a chuckle before lugging his massive belly back to the holding area.
+                His digestive prowess was remarkable, as by the time Atlas reached the holding area, the ingested gladiator had been almost entirely churned. This revelation solidified Goliath's fearsome reputation and deepened the bond between him and Atlas.
+            </EntryParagraph>
+            <EntryParagraph>
+                Goliath can hold a large number of fighters in his stomach, digesting them in a matter of minutes. During several sponsored events, he has been known to contain over a dozen fighters at once, often requiring Atlas to help carry him back to
+                the holding area, occasionally with a wagon. Naturally heavyset, Goliath struggles to move quickly, especially after consuming several fighters. However, his fighting abilities remain unhindered unless he has gorged on too many opponents.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="role-in-atlas-and-goliath">Role in "Atlas and Goliath"</EntrySubTitle>
             <EntryParagraph>
-                Goliath is the larger half of the <EA href="https://en.wikipedia.org/wiki/Gladiator">gladiator</EA> duo <EA href="#/entries/Atlas_and_Goliath">Atlas and Goliath</EA>. Goliath is the stronger of the two, and is usually the one to finish off their opponents.
-                He will often crush or consume them, depending on the situation. Goliath's role as Atlas' mentor makes him incredibly protective of his partner, and will often prioritise the safety of Atlas over his own. After forming the duo, Goliath
-                abandoned his solo career.
+                Goliath is the larger half of the gladiator duo <EA href="#/entries/Atlas_and_Goliath">Atlas and Goliath</EA>. Renowned for his immense strength, Goliath is usually the one to finish off their opponents, either crushing or consuming them
+                depending on the situation. As Atlas's mentor, Goliath is fiercely protective of his partner, often prioritizing Atlas's safety over his own. After forming the duo, Goliath abandoned his solo career, dedicating himself entirely to their
+                partnership.
             </EntryParagraph>
         </div>
     );

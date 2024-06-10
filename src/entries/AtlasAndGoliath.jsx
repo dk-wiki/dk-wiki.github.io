@@ -7,6 +7,10 @@ const contents = [
         id: "formation"
     },
     {
+        title: "Fighting Style",
+        id: "fighting-style"
+    },
+    {
         title: "Notable Fights",
         id: "notable-fights"
     }
@@ -17,29 +21,37 @@ const AtlasAndGoliath = () => {
         <div>
             <EntryTitle>Atlas and Goliath (Gladiator Duo)</EntryTitle>
             <EntryIntroduction>
-                <b>Atlas and Goliath</b> is a gladiator duo known for their unorthodox fighting style, often to the death of their opponents. Both are Gluttonites, with Goliath doing the consuming for most of the duo's fights.
-                Atlas is the smaller half of the duo, known for his speed and agility, while Goliath is the larger half, known for his size and strength. The two formed the duo after Atlas approached Goliath for training, offering
-                to sneak him food from his family's butcher shop. The two have since become a crowd favorite in the arena, with their fights often being the most anticipated.
+                <b>Atlas and Goliath</b> are a gladiator duo renowned for their unorthodox fighting style, often resulting in the death of their opponents. Both are Gluttonites, with Goliath handling the consuming in most of their fights. Atlas, the
+                smaller half of the duo, is celebrated for his speed and agility, while Goliath, the larger half, is known for his immense size and strength. Their partnership began when Atlas approached Goliath for training, offering to sneak
+                him food from his family's butcher shop. Since then, they have become a crowd favorite in the arena, with their matches often being the most anticipated events.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="formation">Formation</EntrySubTitle>
             <EntryParagraph>
-                <EA href="#/entries/Atlas">Atlas</EA> worked in his family butcher shop in Rome, however, he always dreamed of becoming a gladiator. He would often attend the games, however, he never had the opportunity to train in an official school.
-                After one particular game, Atlas became fascinated with a gladiator named <EA href="#/entries/Goliath">Goliath</EA>, who was known for his size and strength. Atlas approached Goliath after a match, offering to sneak him food from his family's
-                butcher shop in return for training. Goliath, hesitant at first, agreed to train Atlas in secret. The two would spend their evenings practicing in a secluded location, with Atlas learning quickly and developing his skills.
+            <EA href="#/entries/Atlas">Atlas</EA> worked in his family's butcher shop in Rome, yet he always dreamed of becoming a gladiator. He frequently attended the games but never had the opportunity to train in an official school. After one
+                particular game, Atlas became captivated by a gladiator named <EA href="#/entries/Goliath">Goliath</EA>, renowned for his immense size and strength. Driven by determination, Atlas approached Goliath after a match, offering to sneak him
+                food from his family's butcher shop in exchange for training. Initially hesitant, Goliath eventually agreed to train Atlas in secret. They spent their evenings practicing in a secluded location, with Atlas learning quickly and honing
+                his skills.
             </EntryParagraph>
             <EntryParagraph>
-                Goliath would consume a lot of meat, and after a few months of training, Atlas suggested for him to consume his opponents. During Goliath's next match, after knocking his opponent down, he consumed him whole. The move quickly became
-                a crowd favourite, and the two soon formed the duo "Atlas and Goliath". The two would fight in execution matches, or against other gladiators to the death. Atlas would weaken opponents with his speed and agility, while Goliath would
-                finish them off by mercilessly devouring them.
+                Goliath consumed a great deal of meat, and after a few months of training, Atlas suggested he consume his opponents. During Goliath's next match, after knocking his opponent down, he consumed him whole. This move quickly became a crowd
+                favorite, and the two soon formed the duo "Atlas and Goliath." They fought in execution matches and against other gladiators to the death. Atlas, with his speed and agility, would weaken their opponents, while Goliath would finish them
+                off by mercilessly devouring them.
+            </EntryParagraph>
+            <EHr />
+            <EntrySubTitle jid="fighting-style">Fighting Style</EntrySubTitle>
+            <EntryParagraph>
+                Their fighting style combines speed and strength in a lethal synergy. Atlas uses his agility to weaken opponents with rapid, precise strikes, exploiting openings with his swift movements. Goliath, leveraging his immense size and power,
+                delivers crushing blows and consumes the incapacitated foes. This dynamic allows Atlas to create opportunities for Goliath to deliver finishing moves, often involving his formidable Gluttonite abilities. Together, they execute a seamless
+                blend of quick subduing tactics and overwhelming force, ensuring their dominance in the arena.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="notable-fights">Notable Fights</EntrySubTitle>
             <EntryParagraph>
-                One of the most notable fights the duo had involved two gladiators with a similar dynamic. One was larger, like Goliath, the other faster, like Atlas. These fighters had trained to take the duo down. The smaller of the opponents
-                managed to get Goliath into a headlock. Powerless, Atlas was soon consumed by the larger of the opponents. Goliath, having grown an incredibly close rapport to atlas, was enraged by this and managed to break free. Goliath charged towards the
-                larger opponent, punching him in the lower belly, forcing him to regurgitate Atlas before the digestion process could begin. The two then worked together and, after a challenging fight, managed to defeat the opponents. Both of the duo
-                consumed their counterpart, digesting them in a bathhouse after the fight, together.
+                One of the most notable fights the duo had involved two gladiators with a similar dynamic. One was larger, like Goliath, and the other faster, like Atlas. These fighters had trained specifically to take the duo down. In the heat of battle,
+                the smaller opponent managed to get Goliath into a headlock. Meanwhile, the larger opponent overpowered and consumed Atlas. Enraged by the loss of his partner, Goliath summoned his immense strength and broke free. He charged toward the
+                larger opponent and delivered a powerful punch to his lower belly, forcing him to regurgitate Atlas before the digestion process could begin. Reunited, Atlas and Goliath fought with renewed vigor, eventually overcoming their formidable
+                opponents. After the victory, they consumed their counterparts, digesting them together in a bathhouse.
             </EntryParagraph>
         </div>
     );

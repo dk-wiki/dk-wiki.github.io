@@ -26,7 +26,7 @@ const SOASBakarr = () => {
     return (
         <div>
             <EntryTitle>SOAS Bakarr</EntryTitle>
-            <EntryIntroduction imgSrc="SOASBakarr.png" imgDesc="A depiction of Ajax." infoTableData={infoData}>
+            <EntryIntroduction imgSrc="SOASBakarr.png" imgDesc="A depiction of Bakarr." infoTableData={infoData}>
                 <b>Special Operations Advance Scout Bakarr</b>, also known as Fenris Bakarr, is a highly classified operative and a key asset in a covert super soldier program. Designed for deployment in high-risk environments, Bakarr's
                 mission is to neutralize enemy forces ahead of conventional troops. As a Gluttonite with enhanced abilities chemically introduced to maximize his effectiveness, Bakarr's prowess in breaking down and absorbing enemies is
                 unparalleled, making him the fastest and most efficient of all known Gluttonites. Due to the sensitive nature of his missions, details about his existence and operations remain shrouded in secrecy, with no official

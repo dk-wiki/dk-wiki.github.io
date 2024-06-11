@@ -53,4 +53,13 @@ export const CHARACTERS = [
         posted: "May 8, 2021",
         category: "Group"
     },
+    {
+        id: "kl4s",
+        name: "SOAS Bakarr (Super Solider)",
+        description: "A special operations agent tasked with disposing of anybody who stands between him and his mission, leaving no trace beyond a satisfied stomach.",
+        image: "SOASBakarr.png",
+        link: "#/entries/SOAS_Bakarr",
+        posted: "Mar 16, 2021",
+        category: "Gluttonite"
+    }
 ];

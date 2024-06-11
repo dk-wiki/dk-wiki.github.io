@@ -6,6 +6,7 @@ import Atlas from './Atlas';
 import Goliath from './Goliath';
 import Gluttonite from './Gluttonite';
 import AtlasAndGoliath from './AtlasAndGoliath';
+import SOASBakarr from './SOASBakarr';
 
 const entryComponents = {
     "The_Executioner": TheExecutioner,
@@ -14,6 +15,7 @@ const entryComponents = {
     "Atlas": Atlas,
     "Goliath": Goliath,
     "Atlas_and_Goliath": AtlasAndGoliath,
+    "SOAS_Bakarr": SOASBakarr,
 };
 
 const Entry = () => {

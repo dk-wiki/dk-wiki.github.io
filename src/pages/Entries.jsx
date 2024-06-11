@@ -115,7 +115,7 @@ const Search = () => {
             <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${showCategories ? 'max-h-96' : 'max-h-0'}`}
             >
-                <div className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-slate-200 p-3 border-t border-gray-300" + (showCategories ? ' rounded-b-lg' : '')}>
+                <div className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 bg-slate-200 p-3 border-t border-gray-300 rounded-b-lg"}>
                     {categories.map((category, index) => (
                         <label key={index} className="inline-flex items-center">
                             <input

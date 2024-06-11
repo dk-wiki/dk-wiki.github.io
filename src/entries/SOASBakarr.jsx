@@ -48,10 +48,9 @@ const SOASBakarr = () => {
                 conditions.
             </EntryParagraph>
             <EntryParagraph>
-            Bakarr's true identity remains shrouded in mystery, as his current moniker, Ferris Bakarr, serves as a mere codename bestowed upon him upon initiation into the clandestine super soldier program. The epithet
+            Bakarr's true identity remains shrouded in mystery, as his current moniker, Fenris Bakarr, serves as a mere codename bestowed upon him upon initiation into the clandestine super soldier program. The epithet
             "<EA href="https://en.wikipedia.org/wiki/Fenrir">Fenris</EA>" pays homage to the mythical wolf of Norse legend, embodying his ferocious and relentless nature on the battlefield. The surname Bakarr is believed to be a fusion of two legendary
-            figures: "<EA href="https://en.wikipedia.org/wiki/Bakasura">Bakasura</EA>", a demon from Hindu mythology renowned for his insatiable hunger, and the infamous "<EA href="https://en.wikipedia.org/wiki/Tarrare">Tarrare</EA>", a French showman
-            and soldier famed for his extreme eating prowess.
+            figures: "<EA href="https://en.wikipedia.org/wiki/Bakasura">Bakasura</EA>", a demon from Hindu mythology renowned for his insatiable hunger.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="official-role-and-operations">Official Role and Operations</EntrySubTitle>

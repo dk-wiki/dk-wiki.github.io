@@ -42,8 +42,7 @@ const AtlasAndGoliath = () => {
             <EntrySubTitle jid="fighting-style">Fighting Style</EntrySubTitle>
             <EntryParagraph>
                 Their fighting style combines speed and strength in a lethal synergy. Atlas uses his agility to weaken opponents with rapid, precise strikes, exploiting openings with his swift movements. Goliath, leveraging his immense size and power,
-                delivers crushing blows and consumes the incapacitated foes. This dynamic allows Atlas to create opportunities for Goliath to deliver finishing moves, often involving his formidable Gluttonite abilities. Together, they execute a seamless
-                blend of quick subduing tactics and overwhelming force, ensuring their dominance in the arena.
+                delivers crushing blows and consumes the incapacitated foes. This dynamic allows Atlas to create opportunities for Goliath to deliver finishing moves, often involving his formidable Gluttonite abilities.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="notable-fights">Notable Fights</EntrySubTitle>

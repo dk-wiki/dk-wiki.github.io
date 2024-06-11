@@ -36,7 +36,7 @@ const Ajax = () => {
                 of unyielding courage in the hearts of his comrades.
                 <EBr />
                 In the annals of Spartan history, Ajax rose to the rank of lochagos, a company commander whose unorthodox tactics delivered a resounding victory for Sparta. Such was his valor and skill that he was entrusted with
-                the sacred duty of training the next generation of Spartan warriors. Those who failed to meet his rigorous standards faced a grim fate, for Ajax was also charged with the elimination of the weak and unworthy.
+                the sacred duty of training the next generation of Spartan warriors. Those who fail to meet his rigorous standards face a grim fate, for Ajax is also charged with the elimination of the weak and unworthy.
                 His fearsome reputation and indomitable spirit earned him the nickname "The Little Meatball," a name spoken with a mix of respect and trepidation by his peers.
                 <EBr />
                 Ajax has a naturally muscular physique, proudly sporting his muscles and rarely wearing clothes to cover them. Ajax's helmet is a golden Spartan helmet with a red crest, with white stripes and a black base. His helmet
@@ -45,36 +45,36 @@ const Ajax = () => {
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
-            Ajax was born in the village of <EA href="https://en.wikipedia.org/wiki/Amyclae">Amyclae</EA> (formerly <EA href="https://en.wikipedia.org/wiki/Amykles">Amykles</EA>). His family, while not part of the royal line, held
-            significant local influence. His father was a respected landowner and a former warrior who had earned the privilege of moving the family to <EA href="https://en.wikipedia.org/wiki/Sparta">Sparta</EA>. At a young age,
-            Ajax and his family relocated to Sparta, where he began his formal training in the <EA href="https://en.wikipedia.org/wiki/Agoge">agoge</EA> system. He was mentored by experienced soldiers and participated in
-            the <EA href="https://en.wikipedia.org/wiki/Crypteia">krypteia</EA>, a secret service designed to train young Spartans in survival, stealth, and combat.
+                Ajax was born in the village of <EA href="https://en.wikipedia.org/wiki/Amyclae">Amyclae</EA> (formerly <EA href="https://en.wikipedia.org/wiki/Amykles">Amykles</EA>). His family, while not part of the royal line, held
+                significant local influence. His father was a respected landowner and a former warrior who had earned the privilege of moving the family to <EA href="https://en.wikipedia.org/wiki/Sparta">Sparta</EA>. At a young age,
+                Ajax and his family relocated to Sparta, where he began his formal training in the <EA href="https://en.wikipedia.org/wiki/Agoge">agoge</EA> system. He was mentored by experienced soldiers and participated in
+                the <EA href="https://en.wikipedia.org/wiki/Crypteia">krypteia</EA>, a secret service designed to train young Spartans in survival, stealth, and combat.
             </EntryParagraph>
             <EntryParagraph>
-            Ajax leads a glorious military career, guiding his men to victory in numerous battles and devouring all those who dare stand in his way. Countless armies and soldiers meet their fates in Ajax's stomach,
-            solidifying his name as one of the greatest commanders in Sparta.
+                Ajax leads a glorious military career, guiding his men to victory in numerous battles and devouring all those who dare stand in his way. Countless armies and soldiers meet their fates in Ajax's stomach,
+                solidifying his name as one of the greatest commanders in Sparta.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
-            Ajax is one of the renowned <EA href="#/entries/Gluttonite">Gluttonites</EA>. His discovery of his ability remains a mystery. As a Gluttonite, Ajax devours his opponents in a magnificent display of strength.
-            With his impressive size, he can consume two to three average-sized soldiers without hindering his combat prowess. While capable of holding more, he often refrains to maintain his agility, at least until the current
-            occupants are fully digested. His stomach acids, among the most potent naturally occurring, can digest an entire soldier, including armor, within mere minutes.
+                Ajax is one of the renowned <EA href="#/entries/Gluttonite">Gluttonites</EA>. His discovery of his ability remains a mystery. As a Gluttonite, Ajax devours his opponents in a magnificent display of strength.
+                With his impressive size, he can consume two to three average-sized soldiers without hindering his combat prowess. While capable of holding more, he often refrains to maintain his agility, at least until the current
+                occupants are fully digested. His stomach acids, among the most potent naturally occurring, can digest an entire soldier, including armor, within mere minutes.
             </EntryParagraph>
             <EntryParagraph>
-            Ajax consumes his prey through his helmet, which opens to a desired width to allow them to enter. Swallowing a soldier takes mere seconds, often before the victim realizes what is happening. Once inside his stomach,
-            the prey is tightly compressed and coated in stomach acid before being dissolved. Ajax maintains a muscular physique, ensuring that any contained prey remains still during combat until they are fully digested and transformed into his strength and power.
+                Ajax consumes his prey through his helmet, which opens to a desired width to allow them to enter. Swallowing a soldier takes mere seconds, often before the victim realizes what is happening. Once inside his stomach,
+                the prey is tightly compressed and coated in stomach acid before being dissolved. Ajax maintains a muscular physique, ensuring that any contained prey remains still during combat until they are fully digested and transformed into his strength and power.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="training">Training</EntrySubTitle>
             <EntryParagraph>
-            The conditions to fight in Ajax's army are strict. Soldiers must be in peak physical condition and are often assessed and closely observed by Ajax himself. Those deemed too weak or unworthy are consumed by Ajax, as converting them into his mass is
-            more beneficial to his army than wasting further resources on them. Often, Ajax will consume the soldier in front of the rest of the army, serving as a powerful reminder of the consequences of failure. Training will then continue as normal while
-            the rest of the army listens to the ambient gurgling of their former comrade being digested.
+                The conditions to fight in Ajax's army are strict. Soldiers must be in peak physical condition and are often assessed and closely observed by Ajax himself. Those deemed too weak or unworthy are consumed by Ajax, as converting them into his mass is
+                more beneficial to his army than wasting further resources on them. Often, Ajax will consume the soldier in front of the rest of the army, serving as a powerful reminder of the consequences of failure. Training will then continue as normal while
+                the rest of the army listens to the ambient gurgling of their former comrade being digested.
             </EntryParagraph>
             <EntryParagraph>
-            Ajax's training focuses on both strength and cardio, pushing beyond the limits of average abilities. While soldiers are not held to the same standards as Ajax, they are expected to keep up with him in combat. Ajax's extreme patriotism and unwavering
-            loyalty to Sparta fuel his relentless training and fighting spirit. If he must consume one of his own men, he does so in the name of Sparta
+                Ajax's training focuses on both strength and cardio, pushing beyond the limits of average abilities. While soldiers are not held to the same standards as Ajax, they are expected to keep up with him in combat. Ajax's extreme patriotism and unwavering
+                loyalty to Sparta fuel his relentless training and fighting spirit. If he must consume one of his own men, he does so in the name of Sparta.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="promiscuity">Promiscuity</EntrySubTitle>

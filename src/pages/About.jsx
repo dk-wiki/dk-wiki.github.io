@@ -4,7 +4,7 @@ import { FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 
 const socialMedia = [
-    { name: 'Discord', icon: FaDiscord, color: '#7289DA', url: 'https://discord.gg/wQ44NaDZj3' },
+    { name: 'Discord', icon: FaDiscord, color: '#7289DA', url: 'https://discord.gg/wrwXDJWbDy' },
     { name: 'Twitter', icon: FaXTwitter, color: '#000000', url: 'https://x.com/321dk123' },
 ];
 

@@ -61,5 +61,14 @@ export const CHARACTERS = [
         link: "#/entries/SOAS_Bakarr",
         posted: "Mar 16, 2021",
         category: "Gluttonite"
+    },
+    {
+        id: "z1x9",
+        name: "Kamu",
+        description: "The Gluttonite emissary of nature. A reprobate and custodian who devours all who disrespect the natural world.",
+        image: "Kamu.png",
+        link: "#/entries/Kamu",
+        posted: "Feb 15, 2021",
+        category: "Gluttonite"
     }
 ];

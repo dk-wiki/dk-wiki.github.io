@@ -25,7 +25,7 @@ const Kamu = () => {
     return (
         <div>
             <EntryTitle>Kamu</EntryTitle>
-            <EntryIntroduction imgSrc="Kamu.png" imgDesc="A depiction of Ajax." infoTableData={infoData}>
+            <EntryIntroduction imgSrc="Kamu.png" imgDesc="A depiction of Kamu." infoTableData={infoData}>
                 <b>Kamu</b> is the  <EA href="#/entries/Gluttonite">Gluttonites</EA> emissary of nature. Situated on the island of Niue, he is a reprobate and custodian who devours all who disrespect the natural world. Kamu hails from a remote Polynesian island,
                 rich with dense jungles, towering volcanoes, and pristine beaches. The island, shrouded in mystery, is largely untouched by modern civilization, preserving its ancient traditions and natural beauty.
                 <EBr />

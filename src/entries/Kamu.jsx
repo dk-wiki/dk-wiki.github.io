@@ -65,7 +65,7 @@ const Kamu = () => {
             </EntryParagraph>
             <EntryParagraph>
             Kamu's worldview is deeply rooted in the Polynesian understanding of the interconnectedness of all life. Central to his philosophy is the belief that nature is not merely a backdrop for human existence but a living, breathing entity deserving of
-            reverence and protection. This belief is encapsulated in the concept of the <EA href="https://en.wikipedia.org/wiki/Aloha_%CA%BB%C4%80ina">Aloha 'Āina</EA> profound love and respect for the land and its ecosystems. When Kānehoa takes extreme actions
+            reverence and protection. This belief is encapsulated in the concept of the <EA href="https://en.wikipedia.org/wiki/Aloha_%CA%BB%C4%80ina">Aloha 'Āina</EA>, a profound love and respect for the land and its ecosystems. When Kamu takes extreme actions
             against those who threaten the natural order, he does so with the conviction that his actions are necessary for the greater good.
             </EntryParagraph>
         </div>

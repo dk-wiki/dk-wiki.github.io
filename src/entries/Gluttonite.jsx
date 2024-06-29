@@ -67,6 +67,11 @@ const Gluttonite = () => {
                 tend to be quite muscular; however, it is also common for them to have a significantly high body fat percentage. The true appearance of a Gluttonite's face remains unknown, as they are typically
                 depicted with some form of face covering, such as a mask or helmet.
             </EntryParagraph>
+            <EntryParagraph>
+                Gluttonites tend to suffer from a condition known as <EA href="https://en.wikipedia.org/wiki/Polyphagia">Polyphagia</EA>. While this condition is usually a symptom of a larger problem in other species,
+                it is a defining characteristic of Gluttonites.
+
+            </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="consumption-and-digestion">Consumption and Digestion</EntrySubTitle>
             <EntryParagraph>

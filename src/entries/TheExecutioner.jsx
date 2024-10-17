@@ -4,6 +4,7 @@ import { EntryNTBC, EntryTitle, EntrySubTitle, EntryParagraph, EntryIntroduction
 const infoData = [
     { label: "Height", value: "286cm (9 ft 6 in)" },
     { label: "Average Weight", value: "342 kg (754 lbs)" },
+    { label: "Nationality", value: "England", flagSrc: "https://flagcdn.com/w320/gb-eng.png" },
 ];
 
 const contents = [

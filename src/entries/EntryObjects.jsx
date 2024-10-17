@@ -75,21 +75,28 @@ export const EntrySubTitle = ({ children, jid }) => {
 export const EntryIntroduction = ({ children, imgSrc, imgDesc, infoTableData }) => {
     return (
         <div className="flex flex-col md:flex-row items-start m-4 p-4 border rounded-lg shadow-lg">
-            <div className={`text-left ${imgSrc ? 'md:w-3/4' : 'w-full'}`}>
+            <div className={`text-left ${imgSrc || infoTableData ? 'md:w-3/4' : 'w-full'}`}>
                 <p className="mb-4 text-lg leading-relaxed">{children}</p>
-                {infoTableData && (
-                    <EntryInfoTable data={infoTableData} />
-                )}
             </div>
-            {imgSrc && (
+            {(imgSrc || infoTableData) && (
                 <div className="md:w-1/4 md:ml-4 mt-4 md:mt-0 flex flex-col items-center">
-                    <img src={imgSrc} alt="Introduction" className="rounded-lg shadow-md w-full object-cover" />
-                    <p className="mt-2 text-sm text-gray-600">{imgDesc}</p>
+                    {imgSrc && (
+                        <div className="w-full">
+                            <img src={imgSrc} alt="Introduction" className="rounded-lg shadow-md w-full object-cover" />
+                            <p className="mt-2 text-sm text-gray-600">{imgDesc}</p>
+                        </div>
+                    )}
+                    {infoTableData && (
+                        <div className="w-full mt-4">
+                            <EntryInfoTable data={infoTableData} />
+                        </div>
+                    )}
                 </div>
             )}
         </div>
     );
 };
+
 
 EntryIntroduction.propTypes = {
     children: PropTypes.node.isRequired,
@@ -105,18 +112,31 @@ EntryIntroduction.propTypes = {
 
 export const EntryInfoTable = ({ data }) => {
     return (
-        <table className="min-w-full bg-white">
+        <table className="min-w-full bg-white text-sm">
             <tbody>
                 {data.map((item, index) => (
                     <tr key={index} className="border-b">
-                        <td className="px-4 py-1 font-medium text-gray-800">{item.label}</td>
-                        <td className="px-4 py-1 text-gray-600">{item.value}</td>
+                        <td className="px-2 py-1 font-medium text-gray-800 whitespace-nowrap w-auto">
+                            {item.label}
+                        </td>
+                        <td className="px-2 py-1 text-gray-600">
+                            {item.label === 'Nationality' && item.flagSrc ? (
+                                <div className="flex items-center">
+                                    <img src={item.flagSrc} alt={`${item.value} flag`} className="w-6 h-4 mr-2" />
+                                    <span>{item.value}</span>
+                                </div>
+                            ) : (
+                                item.value
+                            )}
+                        </td>
                     </tr>
                 ))}
             </tbody>
         </table>
     );
 };
+
+
 
 EntryInfoTable.propTypes = {
     data: PropTypes.arrayOf(

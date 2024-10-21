@@ -70,5 +70,14 @@ export const CHARACTERS = [
         link: "#/entries/Kamu",
         posted: "Feb 15, 2021",
         category: "Gluttonite"
-    }
+    },
+    {
+        id: "z1x9",
+        name: "Kujin",
+        description: "A proud Japanese blacksmith and sumo fighter, with endless devotion to his crafts and a hunger to match.",
+        image: null,
+        link: "#/entries/Kujin",
+        posted: "Oct 22, 2024",
+        category: "Gluttonite"
+    },
 ];

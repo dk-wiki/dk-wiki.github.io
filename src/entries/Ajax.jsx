@@ -23,7 +23,7 @@ const contents = [
 const infoData = [
     { label: "Height", value: "242 cm (7 ft 11 in)" },
     { label: "Average Weight", value: "187 kg (412 lbs)" },
-    { label: "Nationality", value: "Ancient Sparta", flagSrc: "https://flagcdn.com/w320/gr.png" },
+    { label: "Nationality", value: "Sparta", flagSrc: "https://flagcdn.com/w320/gr.png" },
 ];
 
 const Ajax = () => {

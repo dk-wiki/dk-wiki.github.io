@@ -23,6 +23,7 @@ const contents = [
 const infoData = [
     { label: "Height", value: "270 cm (8 ft 10 in)" },
     { label: "Average Weight", value: "301 kg (664 lbs)" },
+    { label: "Nationality", value: "Rome", flagSrc: "https://flagcdn.com/w320/it.png" },
 ];
 
 const Goliath = () => {

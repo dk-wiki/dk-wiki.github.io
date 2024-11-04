@@ -19,6 +19,7 @@ const contents = [
 const infoData = [
     { label: "Height", value: "279 cm (9 ft 2 in)" },
     { label: "Average Weight", value: "362 kg (798 lbs)" },
+    { label: "Nationality", value: "Nieu", flagSrc: "https://flagcdn.com/w320/nu.png" },
 ];
 
 const Kamu = () => {

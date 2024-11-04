@@ -19,6 +19,7 @@ const contents = [
 const infoData = [
     { label: "Height", value: "255 cm (8 ft 4 in)" },
     { label: "Average Weight", value: "191 kg (421 lbs)" },
+    { label: "Nationality", value: "Rome", flagSrc: "https://flagcdn.com/w320/it.png" },
 ];
 
 const Atlas = () => {

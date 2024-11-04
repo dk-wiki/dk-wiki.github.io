@@ -12,6 +12,10 @@ const contents = [
         id: "official-role-and-operations"
     },
     {
+        title: "Station Conditions and Partners",
+        id: "station-conditions-and-partners"
+    },
+    {
         title: "Features as a Gluttonite",
         id: "features-as-a-gluttonite"
     }
@@ -20,6 +24,7 @@ const contents = [
 const infoData = [
     { label: "Height", value: "270 cm (8 ft 10 in)" },
     { label: "Average Weight", value: "194 kg (428 lbs)" },
+    { label: "Nationality", value: "United States", flagSrc: "https://flagcdn.com/w320/us.png" },
 ];
 
 const SOASBakarr = () => {
@@ -27,15 +32,15 @@ const SOASBakarr = () => {
         <div>
             <EntryTitle>SOAS Bakarr</EntryTitle>
             <EntryIntroduction imgSrc="SOASBakarr.png" imgDesc="A depiction of Bakarr." infoTableData={infoData}>
-                <b>Special Operations Advance Scout Bakarr</b>, also known as Fenris Bakarr, is a highly classified operative and a key asset in a covert super soldier program. Designed for deployment in high-risk environments, Bakarr's
-                mission is to neutralize enemy forces ahead of conventional troops. As a Gluttonite with enhanced abilities chemically introduced to maximize his effectiveness, Bakarr's prowess in breaking down and absorbing enemies is
-                unparalleled, making him the fastest and most efficient of all known Gluttonites. Due to the sensitive nature of his missions, details about his existence and operations remain shrouded in secrecy, with no official
-                acknowledgment from any government.
+                <b>Special Operations Advance Scout Bakarr</b>, also known as Fenris Bakarr, is a highly classified operative and a key asset for a private military company (PMC), Aegis Military and Security. Designed for deployment in
+                high-risk environments, Bakarr's mission is to neutralize enemy forces ahead of conventional troops. As a Gluttonite with enhanced abilities chemically introduced to maximize his effectiveness, Bakarr's abilities in breaking
+                down and absorbing enemies is unparalleled, making him the fastest and most efficient of all known Gluttonites. Due to the sensitive nature of his missions, details about his existence and operations remain shrouded in secrecy,
+                with no official acknowledgment from any government or company.
                 <EBr />
                 Bakarr possesses an immense amount of muscle mass, with a fair covering of hair on his belly, chest, forearms, legs, and lower back. He sports a tight pair of dark gray combat pants with black knee pads, a black belt, and sturdy black boots.
                 His attire is completed with fingerless gloves and, on occasion, a harness strapped around his chest. His black helmet, equipped with a striking red visor, adds to his formidable appearance.
             </EntryIntroduction>
-            <TableOfContents items={contents}/>
+            <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life-and-training">Early Life and Training</EntrySubTitle>
             <EntryParagraph>
                 Little is known about Bakarr's early life or the specifics of his recruitment. It is speculated that he was selected after being identified as a potential <EA href="#/entries/Gluttonite">Gluttonite</EA> and subsequently subjected to a series
@@ -48,8 +53,8 @@ const SOASBakarr = () => {
                 conditions.
             </EntryParagraph>
             <EntryParagraph>
-            Bakarr's true identity remains shrouded in mystery, as his current moniker, Fenris Bakarr, serves as a mere codename bestowed upon him upon initiation into the clandestine super soldier program. The epithet
-            "<EA href="https://en.wikipedia.org/wiki/Fenrir">Fenris</EA>" pays homage to the mythical wolf of Norse legend, embodying his ferocious and relentless nature on the battlefield. The surname Bakarr is believed to be a version of the figure "<EA href="https://en.wikipedia.org/wiki/Bakasura">Bakasura</EA>", a demon from Hindu mythology renowned for his insatiable hunger.
+                Bakarr's true identity remains shrouded in mystery, as his current moniker, Fenris Bakarr, serves as a mere codename bestowed upon him upon initiation into the clandestine super soldier program. The epithet
+                "<EA href="https://en.wikipedia.org/wiki/Fenrir">Fenris</EA>" pays homage to the mythical wolf of Norse legend, embodying his ferocious and relentless nature on the battlefield. The surname Bakarr is believed to be a version of the figure "<EA href="https://en.wikipedia.org/wiki/Bakasura">Bakasura</EA>", a demon from Hindu mythology renowned for his insatiable hunger.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="official-role-and-operations">Official Role and Operations</EntrySubTitle>
@@ -63,6 +68,18 @@ const SOASBakarr = () => {
                 the select few privy to his missions. Rumors of his exploits often surface as unconfirmed reports of ghost-like figures performing extraordinary feats on the battlefield, further shrouding his legend in mystery.
             </EntryParagraph>
             <EHr />
+            <EntrySubTitle jid="station-conditions-and-partners">Station Conditions and Partners</EntrySubTitle>
+            <EntryParagraph>
+                Due to his Gluttonite features, Bakarr is stationed in a specialized containment facility when not on active duty. This facility is equipped with a high-security containment chamber designed to accommodate his unique physiology and dietary requirements.
+                Bakarr never leaves his chamber without a full security detail, and access to his quarters is restricted to his team and this superiors. Other than communicating with his team in communal areas, Bakarr spends most of
+                his time in isolation with access to vast amounts of food, entertainment, and exercise equipment.
+            </EntryParagraph>
+            <EntryParagraph>
+                His partner, Toby Mercer, who is responsible for his coordination and keeping him company. Mercer is a close friend and confidant, providing Bakarr with the emotional support he needs in
+                his isolation. The two share a unique bond, with Mercer acting as Bakarr's eyes and ears on the battlefield, ensuring that his partner is safe as he digests his enemies. While Mercer was initially assigned to Bakarr as a handler,
+                the two have since developed a deep rapport that extends beyond their professional relationship. Even though Mercer is Bakarr's superior, the two operate as equals, with Mercer often deferring to Bakarr's judgment in the field.
+            </EntryParagraph>
+            <EHr />
             <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
                 Bakarr is a known <EA href="#/entries/Gluttonite">Gluttonite</EA>, and due to his treatment, he stands as an exceptionally powerful example of the species. Enemies are consumed whole in a swift motion, with barely any resistance. To escape
@@ -71,9 +88,9 @@ const SOASBakarr = () => {
                 of the consumed can be heard from within his gurgling dome, sloshing around as the contents rearrange themselves.
             </EntryParagraph>
             <EntryParagraph>
-            In terms of capacity, Bakarr possesses an astonishing ability to consume a remarkable number of soldiers, with the current known record standing at a platoon of 30 soldiers, including their equipment. Though immobilized by such a massive intake,
-            Bakarr swiftly processes the contents in a matter of minutes before resuming his mission. His stomach, designed primarily for disposing of opponents rather than efficiently returning mass to his body, results in less optimized size gain compared
-            to the rest of his formidable physique, though growth still occurs nonetheless.
+                In terms of capacity, Bakarr possesses an astonishing ability to consume a remarkable number of soldiers, with the current known record standing at a platoon of 30 soldiers, including their equipment. Though immobilized by such a massive intake,
+                Bakarr swiftly processes the contents in a matter of minutes before resuming his mission. His stomach, designed primarily for disposing of opponents rather than efficiently returning mass to his body, results in less optimized size gain compared
+                to the rest of his formidable physique, though growth still occurs nonetheless.
             </EntryParagraph>
         </div>
     );

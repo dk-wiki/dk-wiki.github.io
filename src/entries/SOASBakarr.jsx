@@ -75,7 +75,7 @@ const SOASBakarr = () => {
                 his time in isolation with access to vast amounts of food, entertainment, and exercise equipment.
             </EntryParagraph>
             <EntryParagraph>
-                His partner, Toby Mercer, who is responsible for his coordination and keeping him company. Mercer is a close friend and confidant, providing Bakarr with the emotional support he needs in
+                His partner, Toby Mercer, who is responsible for his coordination and keeping him company, is also a close friend and confidant, providing Bakarr with the emotional support he needs in
                 his isolation. The two share a unique bond, with Mercer acting as Bakarr's eyes and ears on the battlefield, ensuring that his partner is safe as he digests his enemies. While Mercer was initially assigned to Bakarr as a handler,
                 the two have since developed a deep rapport that extends beyond their professional relationship. Even though Mercer is Bakarr's superior, the two operate as equals, with Mercer often deferring to Bakarr's judgment in the field.
             </EntryParagraph>

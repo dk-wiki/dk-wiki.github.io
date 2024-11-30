@@ -73,25 +73,21 @@ const Search = () => {
     };
 
     useEffect(() => {
-        const filteredChars = CHARACTERS.filter(char => {
+        const filteredChars = CHARACTERS.filter((char) => {
             const matchesSearchTerm = char.name.toLowerCase().includes(searchTerm.toLowerCase());
             const matchesCategories = selectedCategories.length === 0 || selectedCategories.includes(char.category);
             return matchesSearchTerm && matchesCategories;
         });
-
-        filteredChars.sort((a, b) => {
-            const nameA = a.name.toLowerCase();
-            const nameB = b.name.toLowerCase();
-            
-            if (nameA < nameB) {
-                return -1;
-            }
-            if (nameA > nameB) {
-                return 1;
-            }
-            return 0;
-        })
-        setCharList(filteredChars);
+    
+        // Ensure uniqueness
+        const uniqueChars = Array.from(
+            new Map(filteredChars.map((char) => [char.id, char])).values()
+        );
+    
+        // Sort the unique characters by name
+        uniqueChars.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    
+        setCharList(uniqueChars);
     }, [searchTerm, selectedCategories]);
 
     return (

@@ -32,9 +32,8 @@ const Ajax = () => {
             <EntryTitle>Ajax</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Ajax_the_Great">Ajax the Great</EntryNTBC>
             <EntryIntroduction imgSrc="Ajax.png" imgDesc="A depiction of Ajax." infoTableData={infoData}>
-                <b>Ajax of Amyclae</b> stands as a legendary Spartan military commander, famed for his prodigious strength and unparalleled strategic prowess. As one of the illustrious <EA href="#/entries/Gluttonite">Gluttonites</EA>,
-                Ajax wields extraordinary powers of containment and natural digestion, setting him apart as a figure of awe and reverence. The mere mention of his name sent shivers through the ranks of his enemies and ignited a fire
-                of unyielding courage in the hearts of his comrades.
+                <b>Ajax of Amyclae</b> stands as a legendary Spartan military commander, famed for his prodigious strength and unparalleled strategic prowess. As a known <EA href="#/entries/Gluttonite">Gluttonite</EA>,
+                Ajax wields extraordinary powers of containment and natural digestion. The mere mention of his name sent shivers through the ranks of his enemies and ignited a fire of unyielding courage in the hearts of his comrades.
                 <EBr />
                 In the annals of Spartan history, Ajax rose to the rank of lochagos, a company commander whose unorthodox tactics delivered a resounding victory for Sparta. Such was his valor and skill that he was entrusted with
                 the sacred duty of training the next generation of Spartan warriors. Those who fail to meet his rigorous standards face a grim fate, for Ajax is also charged with the elimination of the weak and unworthy.

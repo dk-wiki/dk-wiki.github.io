@@ -198,9 +198,17 @@ export const EHr = () => {
 
 export const Eul = ({ children }) => {
     return (
-        <ul className="list-disc pl-5 my-4">
+        <ul className="list-disc pl-6 my-4 space-y-2 text-gray-700">
             {children}
         </ul>
+    );
+};
+
+export const Eli = ({ children }) => {
+    return (
+        <li className="text-base leading-relaxed hover:text-blue-600 transition-colors">
+            {children}
+        </li>
     );
 };
 
@@ -257,4 +265,19 @@ ETable.propTypes = {
             Link: PropTypes.string,
         })
     ).isRequired,
+};
+
+export const EntryImage = ({ src, alt, description }) => {
+    return (
+        <div className="relative md:float-right md:w-1/3 w-full my-4 md:ml-4">
+            <img src={src} alt={alt} className="rounded-lg shadow-md w-full object-cover p-10" />
+            <p className="mt-2 text-sm text-gray-600 text-center">{description}</p>
+        </div>
+    );
+};
+
+EntryImage.propTypes = {
+    src: PropTypes.string.isRequired,
+    alt: PropTypes.string,
+    description: PropTypes.string,
 };

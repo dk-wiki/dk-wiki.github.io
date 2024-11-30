@@ -72,7 +72,7 @@ export const CHARACTERS = [
         category: "Gluttonite"
     },
     {
-        id: "z1x9",
+        id: "x981",
         name: "Kujin",
         description: "A proud Japanese blacksmith and sumo fighter, with endless devotion to his crafts and a hunger to match.",
         image: null,

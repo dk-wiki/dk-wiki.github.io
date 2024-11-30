@@ -69,7 +69,7 @@ const Gluttonite = () => {
                 </Eul>
                 The typical height of a fully grown Gluttonites ranges from 2 meters to 3.5 meters, with resting weights generally within the range of 150 kg to 300 kg. Given their substantial protein intake, Gluttonites
                 tend to be quite muscular; however, it is also common for them to have a significantly high body fat percentage. The true appearance of a Gluttonite's head is not well-documented, as they are always seen wearing
-                helmets, masks or some other facial covering. The true apperance of their heads are pitch black underneath, coated by a layer of naturally occuring black film that absorbs all light. Because of that, the exact
+                helmets, masks or some other facial covering. However, they are rumored to be pitch black underneath, coated by a layer of naturally occuring black film that absorbs all light. Because of that, the exact
                 topology of their heads is unknown. 
             </EntryParagraph>
             <EntryParagraph>

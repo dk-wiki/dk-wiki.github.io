@@ -35,8 +35,7 @@ const TheExecutioner = () => {
             <EntrySubTitle jid="role-as-an-executioner">Role as an Executioner</EntrySubTitle>
             <EntryParagraph>
                 The Executioner's early life is shrouded in mystery, with few knowing his true origins. Typically, executioners manage to separate their personal and professional lives to maintain anonymity. However, The Executioner's
-                methods render this impossible, as each criminal he consumes causes him to grow larger and larger, making his identity unmistakable. Forced into solitude, he can never remove his mask in public, though he now wears it
-                constantly. His very identity has merged with his role, and he finds solace in his work, executing those who betray his kingdom.
+                methods render this impossible, as each criminal he consumes causes him to grow larger and larger, making him a recognizable figure in the kingdom.
             </EntryParagraph>
             <EntryParagraph>
                 Most of those he consumes are criminals condemned to death, but occasionally, he partakes in vigilante justice, dealing with offenders he apprehends himself. While his motives for becoming an executioner remain unknown,

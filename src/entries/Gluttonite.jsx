@@ -124,7 +124,6 @@ const Gluttonite = () => {
                     <li>being male with a substantial size (above 150kg in weight and 2m tall);</li>
                     <li>having a muscular build with large reproductive organs;</li>
                     <li>being constantly hungry, unsatisfied after substantial amounts of food, and able to process foods incredibly quickly;</li>
-                    <li>having a black film covering their face, which absorbs all light;</li>
                     <li>producing no waste;</li>
                     <li>having an extremely active libido;</li>
                     <li>having an abnormally high body temperature.</li>

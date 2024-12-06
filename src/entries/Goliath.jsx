@@ -11,8 +11,8 @@ const contents = [
         id: "solo-career"
     },
     {
-        title: "Discovery as Gluttonite",
-        id: "discovery-as-gluttonite"
+        title: "Discovery as a Gluttonite",
+        id: "discovery-as-a-gluttonite"
     },
     {
         title: "Role in \"Atlas and Golith\"",
@@ -32,12 +32,12 @@ const Goliath = () => {
             <EntryTitle>Goliath</EntryTitle>
             <EntryNTBC href="https://en.wikipedia.org/wiki/Goliath">Goliath</EntryNTBC>
             <EntryIntroduction infoTableData={infoData} imgSrc="Goliath.png" imgDesc="A depiction of Goliath.">
-                <b>Goliath</b> is a gladiator best known for his role in the duo "Atlas and Goliath." As the larger half of the duo, he is renowned for his immense size and strength. Goliath is a known Gluttonite and serves as the primary consumer of
+                <b>Goliath</b> is a Roman gladiator best known for his role in the duo "Atlas and Goliath." As the larger half of the duo, he is renowned for his immense size and strength. Goliath is a known Gluttonite and serves as the primary consumer of
                 their opponents during matches. Trained in a prestigious gladiator school in Rome, he excelled in combat techniques and weaponry. He later paired with Atlas, a smaller gladiator whom he trained in secret. Together, they formed the duo
                 "Atlas and Goliath," participating in execution matches and deadly combat against other gladiators.
                 <EBr />
                 Goliath is immensely large, with a high body fat percentage and a large, soft stomach. He dons a golden Thraex helmet, custom-bent to accommodate his neck fat. His attire includes a gray kilt, a black belt with a golden buckle, black leather
-                pteruges, and golden greaves and shoes. Occasionally, he wears a belt around his chest and back to keep his stomach in place. His body is covered in a thick layer of hair, and he sports two golden nipple piercings.
+                pteruges, and golden greaves and shoes. Occasionally, he wears a belt around his chest and back to keep his stomach in place. His body is covered in a thick layer of hair, and he sports two golden ring nipple piercings.
             </EntryIntroduction>
             <TableOfContents items={contents}/>
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
@@ -55,15 +55,17 @@ const Goliath = () => {
                 in consuming his opponents.
             </EntryParagraph>
             <EHr />
-            <EntrySubTitle jid="discovery-as-gluttonite">Discovery as Gluttonite</EntrySubTitle>
+            <EntrySubTitle jid="discovery-as-a-gluttonite">Discovery as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
                 Goliath's fame earned him many fans, one of whom was <EA href="#/entries/Atlas">Atlas</EA>, the son of a butcher. Atlas offered to sneak Goliath food from his family's butcher shop in return for training. Goliath was hesitant at first, but
-                after seeing Atlas's determination, he agreed to train him in secret. During their training sessions, Goliath consumed an unnaturally large amount of food, and Atlas was fascinated by his capacity. It wasn't until Atlas suggested that Goliath
-                consume a fallen opponent before a match that Goliath revealed his <EA href="#/entries/Gluttonite">Gluttonite</EA> abilities.
+                after seeing a familiar feeling in Atlas, he agreed to train him in secret. Goliath had known he was a Gluttonite for a while before meeting Atlas, but it was something he felt shame towards. He'd eat incredible amounts of food given by
+                his fans as praise, but no matter how much he ate, he was never satiated. During their training sessions, Goliath consumed an unnaturally large amount of food, and Atlas was fascinated by his capacity. It wasn't until Atlas It wasn't until
+                Atlas confided in him about his condition that Goliath also revealed he had a similar thing occur. Atlas would eventually suggest that Goliath consume opponents that the duo began to form.
             </EntryParagraph>
             <EntryParagraph>
-                In the heat of battle, Goliath knocked out his opponent and consumed him whole, much to the shock of the crowd. After this astonishing display, Goliath let out a deep belch and a chuckle before lugging his massive belly back to the holding area.
-                His digestive prowess was remarkable, as by the time Atlas reached the holding area, the ingested gladiator had been almost entirely churned. This revelation solidified Goliath's fearsome reputation and deepened the bond between him and Atlas.
+                In the heat of a battle, Goliath knocked out his opponent and, without warning beyond some hesitation, swallowed him whole, much to the shock of the crowd. After this astonishing display, Goliath let out a deep belch which echoed through the
+                Colosseum. The move instantly became a crowd favourite, sparking him to think of Atlas as he lugged his massive belly back to the holding area.
+                His digestive prowess was remarkable, as by the time Atlas reached the holding area to congratulate him, the ingested gladiator had been almost entirely churned. From that moment on, the two new they were destined to be a duo.
             </EntryParagraph>
             <EntryParagraph>
                 Goliath can hold a large number of fighters in his stomach, digesting them in a matter of minutes. During several sponsored events, he has been known to contain over a dozen fighters at once, often requiring Atlas to help carry him back to

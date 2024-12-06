@@ -11,6 +11,10 @@ const contents = [
         id: "fighting-style"
     },
     {
+        title: "Relationships and Intimacy",
+        id: "relationships-and-intimacy"
+    },
+    {
         title: "Notable Fights",
         id: "notable-fights"
     }
@@ -34,15 +38,24 @@ const AtlasAndGoliath = () => {
                 his skills.
             </EntryParagraph>
             <EntryParagraph>
-                Goliath consumed a great deal of meat, and after a few months of training, Atlas suggested he consume his opponents. During Goliath's next match, after knocking his opponent down, he consumed him whole. This move quickly became a crowd
-                favorite, and the two soon formed the duo "Atlas and Goliath." They fought in execution matches and against other gladiators to the death. Atlas, with his speed and agility, would weaken their opponents, while Goliath would finish them
-                off by mercilessly devouring them.
+                Goliath consumed a great deal of meat, and after a few months of training together, they both opened up about their state of being <EA href="#/entries/Gluttonite">Gluttonites</EA>. Atlas promptly suggested he consume his opponents. Goliath
+                new he could handle the weight of the fighters, but he had never attempted such a feat. During Goliath's next match, after knocking his opponent down, decided to swallow him whole to assess his thoughts on the technique. Nothing had satisfied
+                his intense hunger as much as this before, and after the crowd processed what happened, it nearly instantly became a crowd favorite. The fame pushed the two to form the duo "Atlas and Goliath." They fought in execution matches and
+                against other gladiators to the death. Atlas, with his speed and agility, would weaken their opponents, while Goliath would finish them off by mercilessly devouring them.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="fighting-style">Fighting Style</EntrySubTitle>
             <EntryParagraph>
                 Their fighting style combines speed and strength in a lethal synergy. Atlas uses his agility to weaken opponents with rapid, precise strikes, exploiting openings with his swift movements. Goliath, leveraging his immense size and power,
                 delivers crushing blows and consumes the incapacitated foes. This dynamic allows Atlas to create opportunities for Goliath to deliver finishing moves, often involving his formidable Gluttonite abilities.
+            </EntryParagraph>
+            <EHr />
+            <EntrySubTitle jid="relationships-and-intimacy">Relationships and Intimacy</EntrySubTitle>
+            <EntryParagraph>
+                Although not confirmed whether they are romantically involved, it's clear that Atlas and Goliath share a deep bond that goes beyond mere partnership. Two Gluttonites meeting in the same time and place is an extremely rare occurrence, and
+                considering their inhuman abilities, allows them to find solace in each other in ways that others cannot. They had both saved each other's lives on multiple occasions during their matches. After matches, there would also be
+                significant physical contact between the two. Goliath's full stomach would require easing, and if no servants were available, Atlas would assist in the process, massaging Goliath's belly to help with digestion. The two would
+                bathe together after matches, often to allow the heat to help with digestion. While it's not confirmed whether they have engaged in sexual activities, the intimacy they share is undeniable and part of thir strength as a duo.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="notable-fights">Notable Fights</EntrySubTitle>

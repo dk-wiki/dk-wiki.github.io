@@ -276,6 +276,14 @@ export const EntryImage = ({ src, alt, description }) => {
     );
 };
 
+export const EWarning = ({ children }) => {
+    return (
+        <div className="text-left m-2 p-4 border-l-4 border-yellow-400 bg-yellow-100">
+            <p className="italic">{children}</p>
+        </div>
+    );
+}
+
 EntryImage.propTypes = {
     src: PropTypes.string.isRequired,
     alt: PropTypes.string,

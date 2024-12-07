@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CHARACTERS } from '../Data';
+import { EA } from '../entries/EntryObjects';
 
 const HomePage = () => {
     const [charList, setCharList] = useState(CHARACTERS.sort((a, b) => a.name.localeCompare(b.name)));
@@ -34,8 +35,9 @@ const HomePage = () => {
                         {/* Encyclopedia Entries Section */}
                         <div className="md:order-2 order-1 md:col-span-3 bg-gray-50 p-4 rounded-lg shadow-md">
                             <h2 className="text-xl font-semibold mb-2">Encyclopedia Entries</h2>
+                            <h3 className="text-sm italic mb-4">The list on this page only contains Gluttonites, please visit <EA href="#/entries">the entries page</EA> for all categories.</h3>
                             <ul className="space-y-4">
-                                {charList.slice(0, 3).map(char => (
+                                {charList.filter(char => char.category === 'Gluttonite').slice(0, 3).map(char => (
                                     <a href={char.link} key={char.id}>
                                         <li className="p-4 flex items-center space-x-4 text-left rounded-md hover:bg-slate-200">
                                             {char.image && (

@@ -86,7 +86,7 @@ const Gluttonite = () => {
             <EntryParagraph>
             <EntryImage 
                 src="media/digestive_system.svg"
-                alt="Example Image"
+                alt="Gluttonite Digestive System"
                 description="The standard form of a Gluttonite's digestive system."
             />
                 Most Gluttonites remain masked or helmeted unless they are consuming <b>ingestees</b>, at which point their helmet or mask reveals an opening. It is believed that they possess an incredibly wide maw, capable of

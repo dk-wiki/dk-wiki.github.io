@@ -8,7 +8,8 @@ import Gluttonite from './Gluttonite';
 import AtlasAndGoliath from './AtlasAndGoliath';
 import SOASBakarr from './SOASBakarr';
 import Kamu from './Kamu';
-import Kujin from './Kujin'
+import Kujin from './Kujin';
+import AegisMilitarySecurity from './AegisMilitaryAndSecurity';
 
 const entryComponents = {
     "The_Executioner": TheExecutioner,
@@ -20,6 +21,7 @@ const entryComponents = {
     "SOAS_Bakarr": SOASBakarr,
     "Kamu": Kamu,
     "Kujin": Kujin,
+    "Aegis_Military_and_Security": AegisMilitarySecurity
 };
 
 const Entry = () => {

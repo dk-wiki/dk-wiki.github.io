@@ -80,4 +80,13 @@ export const CHARACTERS = [
         posted: "Oct 22, 2024",
         category: "Gluttonite"
     },
+    {
+        id: "3rfc",
+        name: "Aegis Military and Security",
+        description: "A highly classified paramilitary organization specializing in deploying enhanced operatives for sensitive and complex missions.",
+        image: "media/AMSLogo.svg",
+        link: "#/entries/Aegis_Military_and_Security",
+        posted: "Mar 16, 2021",
+        category: "PMC"
+    },
 ];

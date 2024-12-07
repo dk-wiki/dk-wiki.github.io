@@ -78,7 +78,8 @@ const Gluttonite = () => {
             <EntryParagraph>
                 Gluttonites are human born. It is, however, unknown what occurs during the gestation period that converts the human into a Gluttonite. During early adulthood, the dormant Gluttonite genes are activated, and the
                 individual will begin to exhibit Gluttonite traits. The process is irreversible, and the individual will transform gradually over a few days. Early signs include an insatiable hunger and a rapid increase in muscle mass and height.
-                The individual will also begin to develop a black film over their face, which will eventually cover their entire head. Their personality will also change, and they will seemingly become an entirely different person.
+                The individual may also begin to develop a black film over their face, which will eventually cover their entire head. Their personality will also change, and they will seemingly become an entirely different person.
+                Often, due to fears surrounding the condition, the individual will wear a mask or helmet to hide their face in an attempt to limit fears and discrimination.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="consumption-and-digestion">Consumption and Digestion</EntrySubTitle>
@@ -90,20 +91,20 @@ const Gluttonite = () => {
             />
                 Most Gluttonites remain masked or helmeted unless they are consuming <b>ingestees</b>, at which point their helmet or mask reveals an opening. It is believed that they possess an incredibly wide maw, capable of
                 accommodating even the broadest frames. It is also speculated that they may employ other methods or orifices for consumption. With full exposure of their face, a mutated set of human tongues will latch onto any
-                nearby meal, pulling them down into the dark abyss to their demise.
+                nearby meal, pulling them down into the dark abyss to their demise, further warranting the use of a mask or helmet.
             </EntryParagraph>
             <EntryParagraph>
                 In anticipation of their next meal, an audible growling sound can be heard emanating from their gut, a sign that their stomach is preparing to receive its next occupant. This growling sound is often mistaken
-                for hunger, but it is actually the sound of the stomach acid filling up the available volume.
+                for hunger, but it is actually the sound of the stomach acid filling up the available volume. 
             </EntryParagraph>
             <EntryParagraph>
                 The black film that covers their face acts as a sedative, giving the ingestee an immediate pleasurable feeling. The ingestee will continue to struggle as they remain aware of what is going on, but the physical sensation
-                will be dulled. This feeling remains once they have entered the stomach, which lessens the pain, as they will quickly be plunged into the into the acid.
+                will be dulled. This feeling remains once they have entered the stomach, which lessens the pain, as they plunge into the acid.
             </EntryParagraph>
             <EntryParagraph>
                 The stomach of a Gluttonite maintains a hyper-acidic environment with a pH ranging from 0.5 to 1.0, significantly more acidic than the human stomach, which has a pH of 1.5 to 3.5. This extreme acidity is achieved
                 through the secretion of a specialized acid, a potent mixture of hydrochloric acid (HCl) and unique organic acids. This acid rapidly breaks down organic matter and can also dissolve various other substances,
-                such as metals and plastics. The acids are produced to nearby fill the entire volume of the stomach until all ingestees are almost fully coated.
+                such as metals and plastics. The acids are produced to nearly fill the entire volume of the stomach until all ingestees are almost fully coated.
             </EntryParagraph>
             <EntryParagraph>
                 Gluttonites with larger bellies typically have an enlarged stomach containing a some amount of acid at all times. The digestion process for an entire average-sized individual can take anywhere from a few minutes
@@ -112,7 +113,7 @@ const Gluttonite = () => {
             </EntryParagraph>
             <EntryParagraph>
                 A Gluttonite also possesses the ability to expedite the digestion process by applying pressure, often through a physical punch or squeeze, to their stomach. This technique helps to weaken the ingestee and circulate
-                the acid around the occupant's body, thereby accelerating digestion. This method is frequently employed in combat situations, enabling the Gluttonite to consume more ingestee in a shorter amount of time. Alternatively,
+                the acid around the occupant's body, thereby accelerating digestion. This method is frequently employed in combat situations, enabling the Gluttonite to consume more ingestees in a shorter amount of time. Alternatively,
                 applying heat to the stomach can also speed up the digestion process, as the acid becomes more active at higher temperatures.
             </EntryParagraph>
             <EHr />

@@ -11,10 +11,10 @@ const contents = [
         id: "discovery-as-a-gluttonite"
     },
     {
-        title: "Role in \"Atlas and Golith\"",
+        title: "Role in \"Atlas and Goliath\"",
         id: "role-in-atlas-and-goliath"
     }
-]
+];
 
 const infoData = [
     { label: "Height", value: "255 cm (8 ft 4 in)" },
@@ -29,8 +29,8 @@ const Atlas = () => {
             <EntryNTBC href="https://en.wikipedia.org/wiki/Atlas_(mythology)">Atlas (Mythology)</EntryNTBC>
             <EntryIntroduction infoTableData={infoData} imgSrc="Atlas.png" imgDesc="A depiction of Atlas preparing for a game.">
                 <b>Atlas</b> is a Roman gladiator best known for his role in the duo "Atlas and Goliath." As the smaller half of the duo, he is celebrated for his exceptional speed and agility. Atlas is a
-                known Gluttonite, though he rarely consumes his opponents. Despite lacking formal gladiator training, he was taken under the wing of the gladiator Goliath and trained in secret. Together,
-                they formed the iconic duo, specializing in execution matches and deadly combat against other gladiators.
+known Gluttonite, though he rarely consumes his opponents. Despite lacking formal gladiator training, he was taken under the wing of the gladiator Goliath and trained in secret. Together,
+                they form the iconic duo, specializing in execution matches and deadly combat against other gladiators.
                 <EBr />
                 Atlas boasts a naturally muscular physique with a low body fat percentage. He wears a silver helmet adorned with a metal crest on top and eye holes, along with various ornamentations.
                 A shoulder guard protects his left shoulder, with straps that wrap around his chest, complemented by two leather straps around his biceps. His attire includes a light gray kilt with a
@@ -49,27 +49,21 @@ const Atlas = () => {
             <EHr />
             <EntrySubTitle jid="discovery-as-a-gluttonite">Discovery as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
-                Atlas is a known <EA href="#/entries/Gluttonite">Gluttonite</EA>, though he rarely consumes his opponents. His abilities were discovered prior to his training with Goliath, however, he never swallowed anything
-                more than the meat he had available in his family's shop. While he was confused about his condition, it wasn't until he confided in Goliath that he too revealed he had a similar experience. This instantly
-                strengthened their bond. He trained to be agile and quick, and having a full stomach would hinder his speed. Most of the
-                consumption is handled by his partner, Goliath. However, Atlas does occasionally consume his opponents when Goliath is unable to. Although his stomach capacity is not as vast as Goliath's, he can still swallow
-                several fighters. This feat is not natural for him, often leaving him incapacitated until the stretching in his stomach subsides and the fighters are, at least, partially digested.
+                Atlas is a known <EA href="#/entries/Gluttonite">Gluttonite</EA>, though he rarely consumes his opponents. His abilities were discovered prior to his training with Goliath, but he
+                initially limited himself to consuming meat from his family's butcher shop. Confused about his condition, he confided in Goliath, who revealed a similar experience. This strengthened
+                their bond and trust, as Goliath had also struggled with his Gluttonite abilities before embracing them. 
+                Atlas prioritizes speed and agility, making a full stomach a hindrance. Most of the consumption is handled by his partner, Goliath. However, Atlas occasionally consumes opponents when necessary, particularly if Goliath is incapacitated. Though his stomach capacity is smaller, he can still swallow multiple fighters, a feat that often leaves him temporarily incapacitated until his stomach adjusts and begins digestion.
             </EntryParagraph>
             <EntryParagraph>
-                Digestion for Atlas averages around ten minutes for an average-sized fighter and up to thirty minutes for a larger opponent. He is quite susceptible to gaining weight quickly, so he trains rigorously to
-                maintain his agility. While Goliath encourages him to hone his Gluttonite abilities more frequently, Atlas prefers to stay in peak physical condition and only consume when absolutely necessary. The duo's success
-                stems from their abilities as a team, with Atlas's speed and Goliath's strength complementing each other perfectly.
+                Digestion for Atlas averages about ten minutes for an average-sized fighter and up to thirty minutes for larger opponents. To maintain his agility, he trains rigorously and limits his use of Gluttonite abilities. While Goliath encourages him to embrace these abilities more often, Atlas remains focused on staying in peak physical condition, consuming opponents only when the situation demands it. The duo's success is rooted in their complementary skills: Atlas's speed and Goliath's strength.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="role-in-atlas-and-goliath">Role in "Atlas and Goliath"</EntrySubTitle>
             <EntryParagraph>
-                Atlas is the smaller half of the gladiator duo <EA href="#/entries/Atlas_and_Goliath">Atlas and Goliath</EA>. Because of his speed, Atlas is usually the first to strike, swiftly subduing his
-                opponents and weakening them for Goliath to crush or consume. Younger and smaller than Goliath, Atlas is often underestimated by their adversaries, particularly those aware of his lack of formal training. However, 
-                before his opponents realize their misunderstanding, Atlas has already gotten the upper hand, leaving them vulnerable.
+                Atlas is the smaller half of the gladiator duo <EA href="#/entries/Atlas_and_Goliath">Atlas and Goliath</EA>. Due to his speed, Atlas usually strikes first, swiftly subduing his opponents and weakening them for Goliath to finish. Younger and smaller than Goliath, Atlas is often underestimated by adversaries, especially those aware of his lack of formal training. By the time his opponents realize their mistake, Atlas has already gained the upper hand.
             </EntryParagraph>
             <EntryParagraph>
-                While Goliath handles most of the consumption, he often encourages Atlas to practice his Gluttonite abilities. Occasionally, Atlas finds himself in situations where he must eat an opponent, making it
-                essential for him to be capable, even if it is not his preferred method of combat.
+                While Goliath handles most of the consumption, he frequently encourages Atlas to practice his Gluttonite abilities. Occasionally, Atlas is forced to consume an opponent, making it essential for him to maintain this skill, even if it is not his preferred method of combat.
             </EntryParagraph>
         </div>
     );

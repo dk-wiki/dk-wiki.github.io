@@ -15,7 +15,7 @@ const contents = [
         id: "discovery-as-a-gluttonite"
     },
     {
-        title: "Role in \"Atlas and Golith\"",
+        title: "Role in \"Atlas and Goliath\"",
         id: "role-in-atlas-and-goliath"
     }
 ]
@@ -59,13 +59,13 @@ const Goliath = () => {
             <EntryParagraph>
                 Goliath's fame earned him many fans, one of whom was <EA href="#/entries/Atlas">Atlas</EA>, the son of a butcher. Atlas offered to sneak Goliath food from his family's butcher shop in return for training. Goliath was hesitant at first, but
                 after seeing a familiar feeling in Atlas, he agreed to train him in secret. Goliath had known he was a Gluttonite for a while before meeting Atlas, but it was something he felt shame towards. He'd eat incredible amounts of food given by
-                his fans as praise, but no matter how much he ate, he was never satiated. During their training sessions, Goliath consumed an unnaturally large amount of food, and Atlas was fascinated by his capacity. It wasn't until Atlas It wasn't until
-                Atlas confided in him about his condition that Goliath also revealed he had a similar thing occur. Atlas would eventually suggest that Goliath consume opponents that the duo began to form.
+                his fans as praise, but no matter how much he ate, he was never satiated. During their training sessions, Goliath consumed an unnaturally large amount of food, and Atlas was fascinated by his capacity. It wasn't until Atlas confided in him
+                about his condition that Goliath also revealed he had a similar experience. Atlas would eventually suggest that Goliath consume opponents, leading to the formation of their duo.
             </EntryParagraph>
             <EntryParagraph>
                 In the heat of a battle, Goliath knocked out his opponent and, without warning beyond some hesitation, swallowed him whole, much to the shock of the crowd. After this astonishing display, Goliath let out a deep belch which echoed through the
-                Colosseum. The move instantly became a crowd favourite, sparking him to think of Atlas as he lugged his massive belly back to the holding area.
-                His digestive prowess was remarkable, as by the time Atlas reached the holding area to congratulate him, the ingested gladiator had been almost entirely churned. From that moment on, the two new they were destined to be a duo.
+                Colosseum. The move instantly became a crowd favourite, sparking him to think of Atlas as he lugged his massive belly back to the holding area. His digestive prowess was remarkable, as by the time Atlas reached the holding area to congratulate
+                him, the ingested gladiator had been almost entirely churned. From that moment on, the two knew they were destined to be a duo.
             </EntryParagraph>
             <EntryParagraph>
                 Goliath can hold a large number of fighters in his stomach, digesting them in a matter of minutes. During several sponsored events, he has been known to contain over a dozen fighters at once, often requiring Atlas to help carry him back to

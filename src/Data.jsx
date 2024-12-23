@@ -75,7 +75,7 @@ export const CHARACTERS = [
         id: "x981",
         name: "Kujin",
         description: "A proud Japanese blacksmith and sumo fighter, with endless devotion to his crafts and a hunger to match.",
-        image: null,
+        image: "Kujin.png",
         link: "#/entries/Kujin",
         posted: "Oct 22, 2024",
         category: "Gluttonite"

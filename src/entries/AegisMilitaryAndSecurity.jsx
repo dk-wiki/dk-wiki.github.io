@@ -81,7 +81,7 @@ const AegisMilitarySecurity = () => {
             <EntryQuote>
                 <u>Return to Sender if Undeliverable</u>
                 <p>Mail Processing Center, Aegis Military and</p>
-                <p>Secutiry, PO Box 477, Gateway Facility, USA.</p>
+                <p>Security, PO Box 477, Gateway Facility, USA.</p>
             </EntryQuote>
             <EntryParagraph>
                 It is unclear exactly how the process works, however, it is clear that there are several layers of security and secrecy in place to protect the organization's interests.

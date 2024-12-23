@@ -43,7 +43,8 @@ const SOASBakarr = () => {
             <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life-and-training">Early Life and Training</EntrySubTitle>
             <EntryParagraph>
-                Little is known about Bakarr's early life or the specifics of his recruitment. It is speculated that he was selected after being identified as a potential <EA href="#/entries/Gluttonite">Gluttonite</EA> and subsequently subjected to a series
+                Little is known about Bakarr's early life, however, it is known that he was a high achieving student, which landed him enrollment in college. Transformation into his Gluttonite form occured during his late teriary studies. He was a fierce football player,
+                being nicknamed after his number on the team, 27. After eating an entire opposing team, he was approached by representitives from <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA> (AMS), offering to help him put his abilities to use in a military context. He was subjected to a series
                 of experiments to enhance his abilities. This process likely involved chemical conditioning and genetic manipulation to create maximally corrosive bile and acids. His rigorous training is believed to include advanced close-quarters combat,
                 tactical reconnaissance, and survival skills, enabling him to operate independently in hostile territories if needed. The chemical treatments he underwent significantly boosted his energy levels, allowing for remarkable muscle development in a short period.
             </EntryParagraph>

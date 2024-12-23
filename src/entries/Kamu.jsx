@@ -14,12 +14,12 @@ const contents = [
         title: "Spirituality",
         id: "spirituality"
     }
-]
+];
 
 const infoData = [
     { label: "Height", value: "279 cm (9 ft 2 in)" },
     { label: "Average Weight", value: "362 kg (798 lbs)" },
-    { label: "Nationality", value: "Nieu", flagSrc: "https://flagcdn.com/w320/nu.png" },
+    { label: "Nationality", value: "Niue", flagSrc: "https://flagcdn.com/w320/nu.png" },
 ];
 
 const Kamu = () => {
@@ -27,19 +27,19 @@ const Kamu = () => {
         <div>
             <EntryTitle>Kamu</EntryTitle>
             <EntryIntroduction imgSrc="Kamu.png" imgDesc="A depiction of Kamu." infoTableData={infoData}>
-                <b>Kamu</b> is the  <EA href="#/entries/Gluttonite">Gluttonite</EA> emissary of nature. Situated on the island of <EA href="https://en.wikipedia.org/wiki/Niue">Niue</EA>, he is a reprobate and custodian who punishes those who disrespect
+                <b>Kamu</b> is the <EA href="#/entries/Gluttonite">Gluttonite</EA> emissary of nature. Situated on the island of <EA href="https://en.wikipedia.org/wiki/Niue">Niue</EA>, he is a reprobate and custodian who punishes those who disrespect
                 the natural world. Kamu hails from a remote Polynesian island,
                 rich with dense jungles and wildlife. The island is largely untouched by modern civilization, preserving its ancient traditions and natural beauty.
                 <EBr />
                 Standing at an imposing height with a robust, muscular build and massive stomach, Kamu is intimidating. His skin is tanned, adorned with intricate tribal tattoos following the left side of his body from his pec to his back and down his arm.
-                His mask follows a tiki design with an aggressive and hog like appearance. Kamu's attire consists of arm bands around his biceps and wrists, a loincloth and a belt made of straw. He does not wear more as his body continuously
+                His mask follows a tiki design with an aggressive and hog-like appearance. Kamu's attire consists of armbands around his biceps and wrists, a loincloth, and a belt made of straw. He does not wear more as his body continuously
                 grows from all he consumes.
             </EntryIntroduction>
             <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life-and-purpose">Early Life and Purpose</EntrySubTitle>
             <EntryParagraph>
-                Kamu's origins remain unknown, with little to no information being known about him in general. His ties to the island of <EA href="https://en.wikipedia.org/wiki/Niue">Niue</EA> suggest that he was born and raised there,
-                growing up in the dense jungles and learning to survive in the untamed wilderness, however this is speculation. He is nonverbal, communicating predominantly through grunts and gestures. He roams the island, protecting it from outsiders and those who seek to exploit its resources,
+                Kamu's origins remain unknown, with little to no information available about him. His ties to the island of <EA href="https://en.wikipedia.org/wiki/Niue">Niue</EA> suggest that he was born and raised there,
+                growing up in the dense jungles and learning to survive in the untamed wilderness; however, this is speculation. He is nonverbal, communicating predominantly through grunts and gestures. He roams the island, protecting it from outsiders and those who seek to exploit its resources,
                 pollute its waters, or harm its inhabitants. Kamu's purpose is to maintain the balance of nature, ensuring that the island remains untouched and unspoiled by human hands.
             </EntryParagraph>
             <EntryParagraph>
@@ -50,11 +50,11 @@ const Kamu = () => {
             <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
                 Kamu is a known <EA href="#/entries/Gluttonite">Gluttonite</EA>. While he can handle a lot of food and requires an incredible amount of energy, Kamu will never take more than he needs from his island. His size is due to his role as a protector
-                of the island, where he consumes those who threaten the island's balance. Because of the colonization of his island, Kamu feasts on many men, which all contributes to his observed size and strength.
+                of the island, where he consumes those who threaten the island's balance. Because of the colonization of his island, Kamu feasts on many men, which all contribute to his observed size and strength.
             </EntryParagraph>
             <EntryParagraph>
-                His abilities are standard in the area of digestion, where he can completely dissovle an average male within an hour. His weight gain is, however, incredibly rapid, growing fatter and fatter as he consumes more. Because of this,
-                he is the heaviest known gluttonite with the highest body fat percentage. His stomach capacity can hold an extreme volume, able to handle incredible amounts of people. He is also able to consume non-organic materials, including litter, equipment left by
+                His abilities are standard in the area of digestion, where he can completely dissolve an average male within an hour. His weight gain is, however, incredibly rapid, growing fatter and fatter as he consumes more. Because of this,
+                he is the heaviest known Gluttonite with the highest body fat percentage. His stomach capacity can hold an extreme volume, able to handle incredible amounts of people. He is also able to consume non-organic materials, including litter, equipment left by
                 tourists, and even vehicles.
             </EntryParagraph>
             <EHr />
@@ -66,11 +66,11 @@ const Kamu = () => {
             </EntryParagraph>
             <EntryParagraph>
                 Kamu's worldview is deeply rooted in the Polynesian understanding of the interconnectedness of all life. Central to his philosophy is the belief that nature is not merely a backdrop for human existence but a living, breathing entity deserving of
-                reverence and protection. This belief is encapsulated in the concept of the <EA href="https://en.wikipedia.org/wiki/Aloha_%CA%BB%C4%80ina">Aloha 'Āina</EA>, a profound love and respect for the land and its ecosystems. When Kamu takes extreme actions
+                reverence and protection. This belief is encapsulated in the concept of <EA href="https://en.wikipedia.org/wiki/Aloha_%CA%BB%C4%80ina">Aloha 'Āina</EA>, a profound love and respect for the land and its ecosystems. When Kamu takes extreme actions
                 against those who threaten the natural order, he does so with the conviction that his actions are necessary for the greater good.
             </EntryParagraph>
         </div>
     );
-}
+};
 
 export default Kamu;

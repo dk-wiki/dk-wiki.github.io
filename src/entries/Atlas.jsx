@@ -29,14 +29,14 @@ const Atlas = () => {
             <EntryNTBC href="https://en.wikipedia.org/wiki/Atlas_(mythology)">Atlas (Mythology)</EntryNTBC>
             <EntryIntroduction infoTableData={infoData} imgSrc="Atlas.png" imgDesc="A depiction of Atlas preparing for a game.">
                 <b>Atlas</b> is a Roman gladiator best known for his role in the duo "Atlas and Goliath." As the smaller half of the duo, he is celebrated for his exceptional speed and agility. Atlas is a
-known Gluttonite, though he rarely consumes his opponents. Despite lacking formal gladiator training, he was taken under the wing of the gladiator Goliath and trained in secret. Together,
-                they form the iconic duo, specializing in execution matches and deadly combat against other gladiators.
+                known Gluttonite, though he rarely consumes his opponents. Despite lacking formal gladiator training, he was taken under the wing of the gladiator Goliath and trained in secret. Together,
+                they formed the iconic duo, specializing in execution matches and deadly combat against other gladiators.
                 <EBr />
                 Atlas boasts a naturally muscular physique with a low body fat percentage. He wears a silver helmet adorned with a metal crest on top and eye holes, along with various ornamentations.
                 A shoulder guard protects his left shoulder, with straps that wrap around his chest, complemented by two leather straps around his biceps. His attire includes a light gray kilt with a
                 brown belt and golden buckle, silver greaves on his shins, and sandals on his feet. A slight amount of body hair covers his forearms, pecs, abdomen, and legs.
             </EntryIntroduction>
-            <TableOfContents items={contents}/>
+            <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
                 Atlas was born in the village of <EA href="https://en.wikipedia.org/wiki/Vetera">Vetera</EA>. From a young age, he aspired to be a gladiator, developing a muscular physique from the heavy lifting he did
@@ -67,6 +67,6 @@ known Gluttonite, though he rarely consumes his opponents. Despite lacking forma
             </EntryParagraph>
         </div>
     );
-}
+};
 
 export default Atlas;

@@ -18,7 +18,7 @@ const contents = [
         title: "Notable Fights",
         id: "notable-fights"
     } */
-]
+];
 
 const AtlasAndGoliath = () => {
     return (
@@ -67,6 +67,6 @@ const AtlasAndGoliath = () => {
             </EntryParagraph> */}
         </div>
     );
-}
+};
 
 export default AtlasAndGoliath;

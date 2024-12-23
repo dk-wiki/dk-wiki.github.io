@@ -56,17 +56,17 @@ const Ajax = () => {
                 he reached adulthood, Ajax's potential was evident, even before his Gluttonite abilities manifested.
             </EntryParagraph>
             <EntryParagraph>
-                He leads a distinguished military career, guiding his men to victory and eliminating opponents with his unnatural abilities. Countless soldiers and their
-                armies meet their fates in Ajax's stomach, with legends of his feats spreading far and wide.
+                He led a distinguished military career, guiding his men to victory and eliminating opponents with his unnatural abilities. Countless soldiers and their
+                armies met their fates in Ajax's stomach, with legends of his feats spreading far and wide.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="features-as-a-gluttonite">Features as a Gluttonite</EntrySubTitle>
             <EntryParagraph>
-                As a <EA href="#/entries/Gluttonite">Gluttonite</EA>, Ajax developed his abilities during adulthood, when his sudden hunger becomes
+                As a <EA href="#/entries/Gluttonite">Gluttonite</EA>, Ajax developed his abilities during adulthood, when his sudden hunger became
                 apparent. Sparring partners and livestock were used to satisfy his appetite, often vanishing without a trace. His helmet became a permanent fixture due to the condition,
                 and he grew to an imposing size, towering over his peers. He consumes adversaries as a form of combat, able to ingest two or three average-sized soldiers
                 without losing mobility. Although capable of holding more, he limits himself to maintain agility until digestion is complete. His stomach
-                acids, among the most potent naturally occuring known, dissolve soldiers and armor within minutes.
+                acids, among the most potent naturally occurring, dissolve soldiers and armor within minutes.
             </EntryParagraph>
             <EHr />
             <EntrySubTitle jid="training">Training</EntrySubTitle>

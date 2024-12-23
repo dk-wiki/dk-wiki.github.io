@@ -18,7 +18,7 @@ const contents = [
         title: "Role in \"Atlas and Goliath\"",
         id: "role-in-atlas-and-goliath"
     }
-]
+];
 
 const infoData = [
     { label: "Height", value: "270 cm (8 ft 10 in)" },
@@ -39,7 +39,7 @@ const Goliath = () => {
                 Goliath is immensely large, with a high body fat percentage and a large, soft stomach. He dons a golden Thraex helmet, custom-bent to accommodate his neck fat. His attire includes a gray kilt, a black belt with a golden buckle, black leather
                 pteruges, and golden greaves and shoes. Occasionally, he wears a belt around his chest and back to keep his stomach in place. His body is covered in a thick layer of hair, and he sports two golden ring nipple piercings.
             </EntryIntroduction>
-            <TableOfContents items={contents}/>
+            <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
                 Goliath was born in the city of <EA href="https://en.wikipedia.org/wiki/Carthage">Carthage</EA> as the son of a legionary. Growing up near a Roman military camp, he was surrounded by soldiers and combat training. During a local skirmish,
@@ -64,7 +64,7 @@ const Goliath = () => {
             </EntryParagraph>
             <EntryParagraph>
                 In the heat of a battle, Goliath knocked out his opponent and, without warning beyond some hesitation, swallowed him whole, much to the shock of the crowd. After this astonishing display, Goliath let out a deep belch which echoed through the
-                Colosseum. The move instantly became a crowd favourite, sparking him to think of Atlas as he lugged his massive belly back to the holding area. His digestive prowess was remarkable, as by the time Atlas reached the holding area to congratulate
+                Colosseum. The move instantly became a crowd favorite, sparking him to think of Atlas as he lugged his massive belly back to the holding area. His digestive prowess was remarkable, as by the time Atlas reached the holding area to congratulate
                 him, the ingested gladiator had been almost entirely churned. From that moment on, the two knew they were destined to be a duo.
             </EntryParagraph>
             <EntryParagraph>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaCircleNodes  } from "react-icons/fa6";
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -77,12 +77,12 @@ export const Footer = () => {
         <footer className="bg-gray-800 p-4">
             <div className="max-w-7xl mx-auto flex justify-center items-center mb-4">
                 <p className="text-white text-sm">
-                    &copy; {currentYear} DK. All rights reserved.
+                    &copy; {currentYear} DK -- All rights reserved.
                 </p>
             </div>
             <div className="max-w-7xl mx-auto flex justify-center items-center">
-                <a href="https://twitter.com/321dk123" target="_blank" rel="noopener noreferrer" className="text-white flex items-center space-x-2">
-                    <FaXTwitter className="h-6 w-6 text-blue-500" />
+                <a href="https://linktr.ee/321dk123" target="_blank" rel="noopener noreferrer" className="text-white flex items-center space-x-2">
+                    <FaCircleNodes className="h-6 w-6 text-blue-500" />
                 </a>
             </div>
         </footer>

@@ -33,7 +33,7 @@ const Kujin = () => {
             <EntryNTBC href="https://en.wikipedia.org/wiki/Battle_of_Kujin">the Battle of Kujin</EntryNTBC>
             <EntryIntroduction infoTableData={infoData} imgSrc="Kujin.png" imgDesc="A depiction of Kujin.">
                 <b>Kujin</b> is a Japanese blacksmith and sumo fighter from <EA href="https://en.wikipedia.org/wiki/Kagoshima">Kagoshima, Japan</EA>. He is a known Gluttonite who uses his abilities in the combat of sumo for ritualistic purposes.
-                His name, derived from <i>神餉</i>, signifies “Offering Devourer for the Gods,” a role he takes great pride in when fighting. Outside of the sumo arena, Kujin forges exceptional metalwork as his main profession.
+                His name, derived from <i>神餉</i> (/kuː.dʑin/ with Romanization <i>Koo-jin</i>), signifies “Offering Devourer for the Gods,” a role he takes great pride in when fighting. Outside of the sumo arena, Kujin forges exceptional metalwork as his main profession.
                 His craftsmanship is highly regarded, with his role as a sumo fighter allowing him to channel divinity into his products.
                 <EBr />
                 Kujin is instantly recognizable by his massive body, with bulging muscles and a prominent round stomach. He wears leather armor designed for practicality and comfort, with protectors around his legs and lower belly, fastened

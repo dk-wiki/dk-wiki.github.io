@@ -44,8 +44,8 @@ const SOASBakarr = () => {
             <EntrySubTitle jid="early-life-and-training">Early Life and Training</EntrySubTitle>
             <EntryParagraph>
                 Little is known about Bakarr's early life; however, it is known that he was a high-achieving student, which secured him enrollment in college. Transformation into his Gluttonite form occurred during his late tertiary studies. He was a fierce football player,
-                being nicknamed after his number on the team, 27. After consuming an entire opposing team, he was approached by representatives from <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA> (AMS), offering to help him put his abilities to use in a military context. He was subjected to a series
-                of experiments to enhance his abilities. This process likely involved chemical conditioning and genetic manipulation to create maximally corrosive bile and acids. His rigorous training is believed to include advanced close-quarters combat,
+                being nicknamed after his number on the team, 27. After consuming an entire opposing team, he was approached by representatives from <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA> (AMS), offering to help him put his abilities
+                to use in a military context. Bakarr agreed and was transported to an undisclosed location where an AMS facility housed him. He was subjected to a series of experiments to enhance his abilities. This process likely involved chemical conditioning and genetic manipulation to create maximally corrosive bile and acids. His rigorous training is believed to include advanced close-quarters combat,
                 tactical reconnaissance, and survival skills, enabling him to operate independently in hostile territories if needed. The chemical treatments he underwent significantly boosted his energy levels, allowing for remarkable muscle development in a short period.
             </EntryParagraph>
             <EntryParagraph>

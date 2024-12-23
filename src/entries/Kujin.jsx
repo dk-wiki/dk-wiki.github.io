@@ -88,7 +88,8 @@ const Kujin = () => {
                 sports his stomach proudly, belching out the air inside his stomach to signify his victory.
             </EntryParagraph>
             <EntryParagraph>
-                After he leaves the ring, for the remainder of the ceremony, he digests his opponent without a second thought. He stands as though the excess weight of an entire sumo wrestler hanging from his belly isn't there. As his
+                After he leaves the ring, for the remainder of the ceremony, he digests his opponent without a second thought. He stands as though the excess weight of an entire sumo wrestler hanging from his belly isn't there. Occasionally, spectators
+                gathers around his churning stomach, massaging and worshipping it in order to maximise the effectiveness of the ritual being performed, much to Kujin's pleasure. As his
                 stomach softens, his <EA href="https://en.wikipedia.org/wiki/Mawashi">mawashi</EA> becomes engulfed by the weight gained from the fight, covered by his belly hanging over it. Each movement sways his gut around with deep
                 glugging sounds coming from within. His new size often gets in the way of his craft as a blacksmith, making it too difficult for him to reach his anvil without his belly getting in the way. It can take several days before he's able to
                 return to his profession, so he often spends the time in a local <EA href="https://en.wikipedia.org/wiki/Onsen">onsen</EA> to speed up the process of returning to normal.

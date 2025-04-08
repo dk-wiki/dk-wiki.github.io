@@ -44,8 +44,8 @@ const Kujin = () => {
             <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life">Early Life</EntrySubTitle>
             <EntryParagraph>
-                Kujin was born in a quiet fishing village on the coast of <EA href="https://en.wikipedia.org/wiki/Kagoshima">Kagoshima</EA>. His family thrived as skilled artisans, crafting delicate pottery and intricate wooden carvings. Kujin himself assisted in shaping clay and carving wood,
-                helping him refine his fine motor skills and abilities with handcrafts. Despite the tranquility of his upbringing, Kujin never felt fulfilled in what he did. After Kujin celebrated
+                Kujin was born in a quiet fishing village on the coast of <EA href="https://en.wikipedia.org/wiki/Kagoshima">Kagoshima</EA>. His family thrived as skilled artisans, crafting delicate pottery and intricate wooden carvings.
+                Kujin himself assisted in shaping clay and carving wood, helping him refine his fine motor skills and abilities with handcrafts. In his down-time, he enjoyed folding Origami models. Despite the tranquility of his upbringing, Kujin never felt fulfilled in what he did. After Kujin celebrated
                 his <EA href="https://en.wikipedia.org/wiki/Coming_of_Age_Day">Genpuku</EA>, he went to find a more involved craft that brought him closer to his true passion of blacksmithing. After training as an apprentice at a local
                 blacksmithing forge, he developed his skills and soon began to prove himself a worthy craftsman.
             </EntryParagraph>

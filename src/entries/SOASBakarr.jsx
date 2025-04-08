@@ -33,18 +33,19 @@ const SOASBakarr = () => {
             <EntryTitle>SOAS Bakarr</EntryTitle>
             <EntryIntroduction imgSrc="SOASBakarr.png" imgDesc="A depiction of Bakarr." infoTableData={infoData}>
                 <b>Special Operations Advance Scout Bakarr</b>, also known as Fenris Bakarr, is an operative for the private military company (PMC) <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA>.
-                Bakarr's role is to neutralize enemy forces ahead of conventional troops in high-risk environments. As a <EA href="#/entries/Gluttonite">Gluttonite</EA> with enhanced abilities chemically introduced to maximize his effectiveness, Bakarr's abilities in breaking
+                Bakarr's role is to neutralize enemy forces ahead of conventional troops in high-risk environments. As a <EA href="#/entries/Gluttonite">Gluttonite</EA> with enhanced abilities chemically introduced to maximize his effectiveness, Bakarr's process of breaking
                 down and absorbing enemies are the fastest and most efficient of all known Gluttonites. Due to the sensitive nature of his missions, details about his existence and operations remain classified, with no official acknowledgment from any government or company.
                 <EBr />
                 Bakarr possesses an immense amount of muscle mass, with a fair covering of hair on his belly, chest, forearms, legs, and lower back. He sports a tight pair of dark gray combat pants with black knee pads, a black belt, and sturdy brown boots.
-                His attire is completed with fingerless gloves and, on occasion, a harness strapped around his chest. His black helmet, equipped with a striking dark red visor, adds to his iconic appearance.
+                His attire is completed with fingerless gloves and, on occasion, a harness strapped around his chest. His black helmet, equipped with a striking dark red visor, adds to his iconic appearance. While he is assigned a uniform to cover his belly,
+                he very rarely wears it.
             </EntryIntroduction>
             <TableOfContents items={contents} />
             <EntrySubTitle jid="early-life-and-training">Early Life and Training</EntrySubTitle>
             <EntryParagraph>
-                Little is known about Bakarr's early life; however, it is known that he was a high-achieving student, which secured him enrollment in college. Transformation into his Gluttonite form occurred during his late tertiary studies. At this time, he was a respected
+                Little is known about Bakarr's early life. His earliest documentation is that he studied applied mathematics and computational geometry at college. Transformation into his Gluttonite form occurred during this time. He was a respected
                 collegiate <EA href="https://en.wikipedia.org/wiki/American_football">football</EA> player, being nicknamed after his number on the team, 27. After a scandal surrounding him consuming an entire opposing team, he was approached by representatives
-                from <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA> (AMS), offering to help cover up the situation in return of him put his abilities to use in a military context. Bakarr agreed and was transported to an
+                from <EA href="#/entries/Aegis_Military_and_Security">Aegis Military and Security</EA> (AMS). They offered to help cover up the situation, under the agreement that he use his abilities for their company. Bakarr agreed and was transported to an
                 undisclosed location where an AMS facility housed him. He was subjected to a series of experiments to enhance his abilities. This process likely involved chemical conditioning and genetic manipulation to create maximally corrosive bile and
                 acids. His rigorous training is believed to include advanced close-quarters combat, tactical reconnaissance, sniper skills and survival skills. The chemical treatments he underwent significantly boosted his energy levels, allowing for
                 remarkable muscle development in a short period.

@@ -1,0 +1,71 @@
+{
+    "title": {
+        "prefix": "DK Wiki",
+        "separator": " | "
+    },
+    "articles": [
+        {
+            "title": "Fenris Bakarr",
+            "description": "Fenris Bakarr is an advance scout operative working for the Aegis security organisation.",
+            "route": "fenris-bakarr",
+            "icon": "icons/bakarr-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Ajax",
+            "description": "Ajax of Kastorio is a legendary Spartan lochagos and warrior, responsible for recruiting and training.",
+            "route": "ajax",
+            "icon": "icons/ajax-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Kujin",
+            "description": "Oh lawd he coming",
+            "route": "kujin",
+            "icon": "icons/kujin-icon.png",
+            "featured": true
+        },
+        {
+            "title": "The Executioner",
+            "description": "Check out the ass on this one",
+            "route": "the-executioner",
+            "icon": "icons/executioner-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Atlas",
+            "description": "Just a little guy",
+            "route": "atlas",
+            "icon": "icons/atlas-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Goliath",
+            "description": "Big boi",
+            "route": "goliath",
+            "icon": "icons/goliath-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Kamu",
+            "description": "Come to the island",
+            "route": "kamu",
+            "icon": "icons/kamu-icon.png",
+            "featured": true
+        },
+        {
+            "title": "Gluttonite",
+            "description": "Gluttonites (anthropophogorus voracitus) are a subspecies of human, categorised by their extraordinary size, strength and apetite.",
+            "route": "gluttonite",
+            "icon": null,
+            "featured": false
+        },
+        {
+            "title": "Aegis",
+            "description": "Aegis is a covert humanitarian logistics contractor and security organisation, which is unofficially alleged to provide clandestine protection and combat support.",
+            "route": "aegis",
+            "icon": null,
+            "featured": false
+        }
+    ]
+}

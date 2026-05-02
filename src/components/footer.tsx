@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaDiscord, FaGlobe } from "react-icons/fa";
 import { SiBluesky, SiKofi } from "react-icons/si";
 
@@ -46,10 +45,6 @@ export default function Footer() {
           >
             <FaGlobe />
           </a>
-        </div>
-        <div className="flex gap-4">
-          <Link to="/" className="hover:text-white">Home Page</Link>
-          <Link to="https://dk-wiki.github.io/server-rules/" className="hover:text-white">Server Rules</Link>
         </div>
       </div>
     </footer>

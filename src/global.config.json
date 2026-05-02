@@ -14,7 +14,7 @@
         },
         {
             "title": "Ajax",
-            "description": "Ajax of Kastorio is a legendary Spartan lochagos and warrior, responsible for recruiting and training.",
+            "description": "Ajax of Kastorio is a legendary Spartan lochagos and warrior, who devours all those who stand against Sparta.",
             "route": "ajax",
             "icon": "icons/ajax-icon.png",
             "featured": true,

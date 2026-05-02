@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { TitleMain } from "@/components/elements/title";
 import { Link } from "react-router-dom";
 import Paragraph from "@/components/elements/text";
+import { FaEllipsis } from "react-icons/fa6";
 
 const HomePage = () => {
     useTitle("Home");
@@ -22,7 +23,7 @@ const HomePage = () => {
             </Paragraph>
             <Paragraph>
                 This website is current under construction and will be updated with new articles when they are made available. If you have any information regarding Gluttonites,
-                reach out to DK immediately. 
+                reach out to DK immediately.
             </Paragraph>
             <br />
             <ArticleSearch />
@@ -91,6 +92,13 @@ const ArticleSearch = () => {
                                 </li>
                             </Link>
                         ))}
+                        <li className="flex items-center gap-4 w-full rounded px-1 bg-neutral-800 hover:bg-neutral-600 transition italic opacity-50">
+                            <FaEllipsis className="w-10 h-10 object-contain rounded" />
+                            <div>
+                                <h1 className="text-lg font-bold">More to come</h1>
+                                <p className="text-sm text-zinc-400">There are many more articles still being written. Stay tuned for updates!</p>
+                            </div>
+                        </li>
                     </ul>
                     {
                         visibleCount < articles.length && (

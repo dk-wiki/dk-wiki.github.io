@@ -2,7 +2,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import HomePage from "@/pages/main/home";
-import AboutPage from "@/pages/main/about";
+// import AboutPage from "@/pages/main/about";
 import NotFoundPage from "@/pages/main/notfound";
 import ArticlePage from "./pages/main/article";
 
@@ -13,10 +13,10 @@ const ROUTES = [
     path: "/",
     page: HomePage,
   },
-  {
-    path: "/about",
-    page: AboutPage,
-  },
+  // {
+  //   path: "/about",
+  //   page: AboutPage,
+  // },
   {
     path: "/article/:slug",
     page: ArticlePage,

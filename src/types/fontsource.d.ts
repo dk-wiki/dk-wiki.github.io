@@ -6,4 +6,5 @@ export type Article = {
   route: string,
   icon: string | null,
   featured: boolean,
+  shown: boolean,
 }

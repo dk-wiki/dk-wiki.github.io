@@ -20,6 +20,7 @@ type ArticleRouterObject = {
     route: string,
     node: ComponentType,
     style?: string,
+    show?: boolean,
 };
 
 const ARTICLE_DIRECTORY: ArticleRouterObject[] = [
@@ -29,6 +30,7 @@ const ARTICLE_DIRECTORY: ArticleRouterObject[] = [
         route: "ajax",
         node: AjaxPage,
         style: "ancient-greek",
+        show: true,
     },
     {
         id: 1,
@@ -95,7 +97,7 @@ const ArticlePage = () => {
     useTitle(pageTitle);
 
     useEffect(() => {
-        const articleObj = ARTICLE_DIRECTORY.find(a => a.route === slug);
+        const articleObj = ARTICLE_DIRECTORY.filter(a => a.show).find(a => a.route === slug);
 
         if (slug && articleObj) {
             const Component = articleObj.node;

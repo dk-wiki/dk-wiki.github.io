@@ -16,33 +16,31 @@
     --pg-b-size: 5px;
     --pg-color: #fafafa;
     --outline-size: 3px;
+
+    --imperial-red: #8B0000;
+    --deep-red: #5C0000;
+    --roman-gold: #D4AF37;
+    --bronze: #B8860B;
+    --marble: #F8F6F0;
+    --aged-marble: #E8E6DC;
+    --stone: #4A4A4A;
+    --dark-stone: #2C2420;
+    --ivory: #FFFFF0;
 }
 
 #global {
-    position: relative;
-    overflow: hidden;
-    background: none;
-}
-
-#global::after {
-    content: "";
-    position: absolute;
-    inset: -50%;
-    z-index: -3;
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0.5), rgba(29, 14, 14, 0.5));
-}
-
-#global::before {
-    content: "";
-    position: absolute;
-    inset: -50%;
-    background-image: url("/tiles/arch-body-double.png");
-    background-color: rgb(94, 88, 86);
-    background-repeat: repeat;
-    background-size: var(--bg-tile-size) auto;
-    transform: rotate(0deg);
-    z-index: -2;
-    filter: blur(var(--blur-size));
+    background:
+        repeating-linear-gradient(to right,
+            rgba(0, 0, 0, 0.1) 0px,
+            rgba(255, 255, 255, 0.2) 10px,
+            rgba(0, 0, 0, 0.2) 20px),
+        linear-gradient(to right,
+            #d4d4d4,
+            #f5f5f5 20%,
+            #ffffff 50%,
+            #f5f5f5 80%,
+            #d4d4d4);
+    background-blend-mode: multiply;
 }
 
 #page {

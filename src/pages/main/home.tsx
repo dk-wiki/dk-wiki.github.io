@@ -16,8 +16,15 @@ const HomePage = () => {
         <PageWrapper>
             <TitleMain>The DK Wiki</TitleMain>
             <Paragraph>
-                Hello
+                The DK Wiki is an online encyclopedia aiming to document all current knowledge surrounding Gluttonites. Formally known as Homo Vorax,
+                Gluttonites are a predatory human or humanoid subspecies with the ability to swallow large quantities whole, including living creatures. They are characterised
+                by their insatiable hunger, enormous size, extraordinary digestive capabilities and a universal tendency to conceal their faces behind helmets, hoods or masks.
             </Paragraph>
+            <Paragraph>
+                This website is current under construction and will be updated with new articles when they are made available. If you have any information regarding Gluttonites,
+                reach out to DK immediately. 
+            </Paragraph>
+            <br />
             <ArticleSearch />
         </PageWrapper>
     );
@@ -26,7 +33,7 @@ const HomePage = () => {
 export default HomePage;
 
 const ArticleSearch = () => {
-    const allArticles: Article[] = config.articles;
+    const allArticles: Article[] = config.articles.filter((e) => e.shown);
     const ARTICLES_PER_PAGE = 10;
 
     const [articles, setArticles] = useState<Article[]>([]);

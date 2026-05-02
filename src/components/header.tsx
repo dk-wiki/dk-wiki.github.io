@@ -4,7 +4,7 @@ import ajaxLogo from "@/assets/ajax.webp";
 
 const NAV_LINKS = [
     { label: "Home", link: "/" },
-    { label: "About", link: "/about" },
+    // { label: "About", link: "/about" },
 ];
 
 export default function Header() {

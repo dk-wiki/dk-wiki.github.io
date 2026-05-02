@@ -25,6 +25,7 @@ const AjaxPage = () => {
                 meta={
                     [
                         { label: "Rank", value: "Lochagos" },
+                        { label: "Discovered", value: "Aug 31, 2022" },
                     ]
                 }
             />
@@ -76,9 +77,10 @@ const AjaxPage = () => {
                 Gluttonite, allowing him to completely absorb a grown male within five to ten minutes, depending on his activity.
             </Paragraph>
             <Paragraph indent>
-                Ajax's ability to swallow soldiers with ease provides him with an edge in combat, using his stomach as a lethal weapon. His size and strength grant him full mobility with even three undigested
-                soldiers contained in his gut, and rarely exceeding five while in battle. After battle, whether it is captured enemies or dishonoured soldiers, Ajax is known to dispose of large quantities
-                of soldiers, with some accounts claiming his maximum capacity can exceed thirty soldiers. His abilities are treated as a state secret, though rumours among enemies describe an insatiable beast devouring men.
+                Ajax's ability to swallow men with ease provides him with an edge in combat, using his stomach as a lethal weapon. His size and strength grant him full mobility with even three undigested
+                warriors contained in his gut, and rarely exceeding five while in battle. After battle—whether it's captured enemies or dishonoured soldiers—Ajax is known to dispose of large quantities
+                of men by eating them, with some accounts claiming his maximum capacity exceeds thirty. His abilities are treated as a state secret, though rumours among enemies describe an insatiable
+                beast "devouring armies whole".
             </Paragraph>
             <Paragraph indent>
                 Once his practice of consuming foes was reluctantly tolerated by his men, Ajax was quickly recognised as an asset by the Gerousia and <Link to="https://en.wikipedia.org/wiki/Ephor">Ephors</Link>, who

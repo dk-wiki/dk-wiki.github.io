@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperium Romanum - Codex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700;900&family=IM+Fell+Double+Pica:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --imperial-red: #8B0000;
+            --deep-red: #5C0000;
+            --roman-gold: #D4AF37;
+            --bronze: #B8860B;
+            --marble: #F8F6F0;
+            --aged-marble: #E8E6DC;
+            --stone: #4A4A4A;
+            --dark-stone: #2C2420;
+            --ivory: #FFFFF0;
+        }
+
+        body {
+            font-family: 'IM Fell Double Pica', serif;
+            background: var(--marble);
+            color: var(--dark-stone);
+            line-height: 1.8;
+            background-image: 
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.02) 2px, rgba(0,0,0,0.02) 4px);
+        }
+
+        /* Ornate Top Banner with Laurel Wreath */
+        .imperial-header {
+            background: linear-gradient(180deg, var(--deep-red) 0%, var(--imperial-red) 100%);
+            border-top: 8px solid var(--roman-gold);
+            border-bottom: 8px solid var(--roman-gold);
+            padding: 0;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .laurel-border {
+            height: 12px;
+            background: linear-gradient(90deg, 
+                var(--bronze) 0%, var(--roman-gold) 25%, 
+                var(--bronze) 50%, var(--roman-gold) 75%, var(--bronze) 100%);
+            position: relative;
+        }
+
+        .laurel-border::before {
+            content: '❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦ ❦';
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: var(--imperial-red);
+            font-size: 10px;
+            top: 1px;
+            letter-spacing: 2rem;
+        }
+
+        .header-content {
+            padding: 2.5rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .eagle-emblem {
+            font-size: 3rem;
+            color: var(--roman-gold);
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .site-title {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--ivory);
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+            margin-bottom: 0.3rem;
+        }
+
+        .site-motto {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            color: var(--roman-gold);
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .roman-numerals-decoration {
+            margin-top: 1rem;
+            font-family: 'Cinzel', serif;
+            color: rgba(255,255,255,0.3);
+            font-size: 0.9rem;
+            letter-spacing: 1em;
+        }
+
+        /* Column-styled Navigation */
+        .colonnade-nav {
+            background: linear-gradient(180deg, var(--aged-marble) 0%, var(--marble) 100%);
+            border-top: 3px solid var(--bronze);
+            border-bottom: 3px solid var(--bronze);
+            padding: 0;
+            position: relative;
+        }
+
+        .column-capital-top {
+            height: 8px;
+            background: linear-gradient(90deg, 
+                var(--stone) 0%, var(--bronze) 50%, var(--stone) 100%);
+        }
+
+        .nav-items {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1.2rem 0;
+            gap: 0;
+        }
+
+        .nav-items li {
+            border-right: 2px solid var(--bronze);
+            padding: 0 2.5rem;
+            position: relative;
+        }
+
+        .nav-items li:last-child {
+            border-right: none;
+        }
+
+        .nav-items li::before {
+            content: '❙';
+            position: absolute;
+            left: 0;
+            color: var(--roman-gold);
+            font-size: 1.5rem;
+        }
+
+        .nav-items a {
+            font-family: 'Cinzel', serif;
+            color: var(--dark-stone);
+            text-decoration: none;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-items a:hover {
+            color: var(--imperial-red);
+            text-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+        }
+
+        .column-base {
+            height: 6px;
+            background: var(--stone);
+        }
+
+        /* Main Container with Columns */
+        .container {
+            max-width: 1500px;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: 280px 1fr 320px;
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        /* Pillar-styled Sidebar */
+        .sidebar-column {
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+        }
+
+        .pillar-top {
+            background: linear-gradient(135deg, var(--stone) 0%, var(--bronze) 100%);
+            height: 20px;
+            border: 2px solid var(--roman-gold);
+            border-bottom: none;
+            position: relative;
+        }
+
+        .pillar-top::before,
+        .pillar-top::after {
+            content: '';
+            position: absolute;
+            top: -2px;
+            width: 8px;
+            height: 8px;
+            background: var(--roman-gold);
+            border-radius: 50%;
+        }
+
+        .pillar-top::before { left: 10px; }
+        .pillar-top::after { right: 10px; }
+
+        .pillar-shaft {
+            background: linear-gradient(90deg, var(--aged-marble) 0%, var(--ivory) 50%, var(--aged-marble) 100%);
+            border-left: 3px solid var(--stone);
+            border-right: 3px solid var(--stone);
+            padding: 2rem 1.5rem;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .pillar-base {
+            background: linear-gradient(135deg, var(--bronze) 0%, var(--stone) 100%);
+            height: 16px;
+            border: 2px solid var(--roman-gold);
+            border-top: none;
+        }
+
+        .sidebar-column h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--imperial-red);
+            font-size: 1.15rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 3px double var(--roman-gold);
+            text-align: center;
+        }
+
+        .sidebar-column ul {
+            list-style: none;
+        }
+
+        .sidebar-column li {
+            margin: 1rem 0;
+            position: relative;
+            padding-left: 1.2rem;
+        }
+
+        .sidebar-column li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--imperial-red);
+            font-size: 0.8rem;
+        }
+
+        .sidebar-column a {
+            font-family: 'Cinzel', serif;
+            color: var(--dark-stone);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .sidebar-column a:hover {
+            color: var(--imperial-red);
+            padding-left: 0.3rem;
+        }
+
+        .sidebar-column ul ul {
+            margin-left: 1rem;
+            margin-top: 0.5rem;
+            border-left: 2px solid var(--bronze);
+            padding-left: 1rem;
+        }
+
+        /* Main Article - Scroll/Tablet Style */
+        .main-scroll {
+            background: var(--ivory);
+            border: 4px solid var(--bronze);
+            border-radius: 3px;
+            box-shadow: 
+                0 0 0 2px var(--roman-gold),
+                0 8px 24px rgba(0,0,0,0.2);
+            position: relative;
+        }
+
+        .scroll-top-decoration {
+            height: 30px;
+            background: linear-gradient(180deg, var(--aged-marble) 0%, var(--ivory) 100%);
+            border-bottom: 3px double var(--roman-gold);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Cinzel', serif;
+            color: var(--bronze);
+            letter-spacing: 2em;
+            font-size: 0.8rem;
+        }
+
+        .article-content {
+            padding: 3rem 4rem;
+            background: var(--ivory);
+        }
+
+        .article-title {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--imperial-red);
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 0 var(--roman-gold);
+            border-bottom: 5px double var(--roman-gold);
+            padding-bottom: 1rem;
+        }
+
+        .article-subtitle {
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            font-style: italic;
+            color: var(--stone);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.2em;
+        }
+
+        .article-meta {
+            text-align: center;
+            color: var(--stone);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--bronze);
+        }
+
+        /* Ornate Infobox */
+        .imperial-infobox {
+            float: right;
+            width: 320px;
+            margin: 0 0 2rem 2rem;
+            background: var(--aged-marble);
+            border: 4px solid var(--bronze);
+            box-shadow: 
+                0 0 0 2px var(--roman-gold),
+                0 6px 16px rgba(0,0,0,0.3);
+        }
+
+        .infobox-header {
+            background: linear-gradient(180deg, var(--imperial-red) 0%, var(--deep-red) 100%);
+            color: var(--ivory);
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 3px solid var(--roman-gold);
+        }
+
+        .infobox-title {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.3rem;
+        }
+
+        .infobox-eagle {
+            font-size: 2rem;
+            color: var(--roman-gold);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .infobox-image {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, var(--imperial-red) 0%, var(--deep-red) 50%, var(--imperial-red) 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--roman-gold);
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 4rem;
+            border-bottom: 3px solid var(--roman-gold);
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+        }
+
+        .infobox-body {
+            padding: 1.5rem;
+        }
+
+        .infobox-row {
+            display: grid;
+            grid-template-columns: 110px 1fr;
+            gap: 0.8rem;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--bronze);
+            font-size: 0.95rem;
+        }
+
+        .infobox-row:last-child {
+            border-bottom: none;
+        }
+
+        .infobox-label {
+            font-family: 'Cinzel', serif;
+            font-weight: 700;
+            color: var(--imperial-red);
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+        }
+
+        .infobox-value {
+            font-family: 'IM Fell Double Pica', serif;
+        }
+
+        /* Table of Contents - Tablet Style */
+        .codex-contents {
+            background: linear-gradient(135deg, var(--aged-marble) 0%, var(--marble) 100%);
+            border: 3px solid var(--bronze);
+            padding: 0;
+            margin: 2rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .contents-header {
+            background: var(--stone);
+            color: var(--roman-gold);
+            padding: 0.8rem 1.5rem;
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            border-bottom: 3px solid var(--roman-gold);
+            text-align: center;
+        }
+
+        .contents-body {
+            padding: 1.5rem 2rem;
+        }
+
+        .contents-body ul {
+            list-style: none;
+        }
+
+        .contents-body > ul > li {
+            margin: 0.8rem 0;
+        }
+
+        .contents-body li::before {
+            content: attr(data-numeral);
+            font-family: 'Cinzel', serif;
+            color: var(--imperial-red);
+            margin-right: 1rem;
+            font-weight: 700;
+            min-width: 2.5rem;
+            display: inline-block;
+        }
+
+        .contents-body a {
+            color: var(--dark-stone);
+            text-decoration: none;
+            font-family: 'Cinzel', serif;
+            transition: all 0.3s;
+        }
+
+        .contents-body a:hover {
+            color: var(--imperial-red);
+            padding-left: 0.5rem;
+        }
+
+        .contents-body ul ul {
+            margin-left: 3.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .contents-body ul ul li {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        /* Article Sections */
+        .article-content h2 {
+            font-family: 'Cinzel', serif;
+            color: var(--imperial-red);
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 3rem;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 4px double var(--roman-gold);
+            position: relative;
+        }
+
+        .article-content h2::before {
+            content: attr(data-numeral);
+            position: absolute;
+            left: -3rem;
+            color: var(--bronze);
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+
+        .article-content h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--stone);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: 5px solid var(--bronze);
+            padding-left: 1rem;
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            text-align: justify;
+            line-height: 2;
+        }
+
+        .article-content p:first-letter {
+            font-size: 3rem;
+            font-family: 'Cinzel Decorative', serif;
+            color: var(--imperial-red);
+            float: left;
+            line-height: 2.5rem;
+            margin-right: 0.5rem;
+            margin-top: 0.2rem;
+        }
+
+        /* Imperial Inscription Boxes */
+        .imperial-inscription {
+            background: linear-gradient(135deg, var(--stone) 0%, var(--dark-stone) 100%);
+            color: var(--roman-gold);
+            padding: 2rem 3rem;
+            margin: 3rem 0;
+            border: 5px double var(--roman-gold);
+            box-shadow: 
+                inset 0 0 30px rgba(0,0,0,0.5),
+                0 4px 12px rgba(0,0,0,0.3);
+            text-align: center;
+            position: relative;
+        }
+
+        .imperial-inscription::before,
+        .imperial-inscription::after {
+            content: '❦';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            color: var(--bronze);
+        }
+
+        .imperial-inscription::before { left: 1rem; }
+        .imperial-inscription::after { right: 1rem; }
+
+        .inscription-text {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .inscription-translation {
+            font-family: 'Cinzel', serif;
+            font-size: 0.95rem;
+            margin-top: 0.8rem;
+            font-style: italic;
+            color: var(--aged-marble);
+            letter-spacing: 0.1em;
+        }
+
+        /* Links */
+        .article-content a {
+            color: var(--imperial-red);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px dotted var(--imperial-red);
+            transition: all 0.3s;
+        }
+
+        .article-content a:hover {
+            color: var(--bronze);
+            border-bottom: 1px solid var(--bronze);
+        }
+
+        /* References Section */
+        .references-section {
+            background: var(--aged-marble);
+            padding: 2rem;
+            margin-top: 4rem;
+            border-left: 6px solid var(--bronze);
+            border-top: 2px solid var(--roman-gold);
+            border-bottom: 2px solid var(--roman-gold);
+        }
+
+        .references-section h2 {
+            margin-top: 0 !important;
+        }
+
+        .references-section ol {
+            margin-left: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .references-section li {
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+
+        /* Right Sidebar - Related Scrolls */
+        .related-scrolls {
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+        }
+
+        .scroll-box {
+            background: var(--ivory);
+            border: 3px solid var(--bronze);
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .scroll-box-header {
+            background: linear-gradient(180deg, var(--aged-marble) 0%, var(--marble) 100%);
+            padding: 1rem;
+            border-bottom: 3px double var(--roman-gold);
+        }
+
+        .scroll-box h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--imperial-red);
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            text-align: center;
+            margin: 0;
+        }
+
+        .scroll-box-content {
+            padding: 1.5rem;
+        }
+
+        .scroll-box ul {
+            list-style: none;
+        }
+
+        .scroll-box li {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .scroll-box li::before {
+            content: '◆';
+            position: absolute;
+            left: 0;
+            color: var(--bronze);
+            font-size: 0.7rem;
+        }
+
+        .scroll-box a {
+            font-family: 'Cinzel', serif;
+            color: var(--dark-stone);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .scroll-box a:hover {
+            color: var(--imperial-red);
+            padding-left: 0.3rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .container {
+                grid-template-columns: 220px 1fr;
+            }
+
+            .related-scrolls {
+                display: none;
+            }
+
+            .imperial-infobox {
+                float: none;
+                width: 100%;
+                margin: 2rem 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar-column {
+                position: static;
+            }
+
+            .article-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .article-title {
+                font-size: 2rem;
+            }
+
+            .site-title {
+                font-size: 2rem;
+            }
+
+            .nav-items {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .nav-items li {
+                border-right: none;
+                border-bottom: 1px solid var(--bronze);
+                padding: 0.8rem 0;
+            }
+
+            .article-content h2::before {
+                position: static;
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Imperial Header -->
+    <header class="imperial-header">
+        <div class="laurel-border"></div>
+        <div class="header-content">
+            <div class="eagle-emblem">🦅</div>
+            <h1 class="site-title">Imperium Romanum</h1>
+            <div class="site-motto">Senatus Populusque Romanus</div>
+            <div class="roman-numerals-decoration">MMXXV</div>
+        </div>
+        <div class="laurel-border"></div>
+    </header>
+
+    <!-- Column Navigation -->
+    <nav class="colonnade-nav">
+        <div class="column-capital-top"></div>
+        <ul class="nav-items">
+            <li><a href="#domus">Domus</a></li>
+            <li><a href="#codex">Codex</a></li>
+            <li><a href="#imperium">Imperium</a></li>
+            <li><a href="#legiones">Legiones</a></li>
+            <li><a href="#quaerere">Quaerere</a></li>
+        </ul>
+        <div class="column-base"></div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Pillar Sidebar -->
+        <aside class="sidebar-column">
+            <div class="pillar-top"></div>
+            <div class="pillar-shaft">
+                <h3>Navigatio</h3>
+                <ul>
+                    <li><a href="#summarium">Summarium</a></li>
+                    <li><a href="#historia">Historia</a>
+                        <ul>
+                            <li><a href="#origo">Origo</a></li>
+                            <li><a href="#expansio">Expansio</a></li>
+                            <li><a href="#declinatio">Declinatio</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#imperium">Imperium</a>
+                        <ul>
+                            <li><a href="#princeps">Princeps</a></li>
+                            <li><a href="#senatus">Senatus</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#cultura">Cultura</a></li>
+                    <li><a href="#militia">Militia</a></li>
+                    <li><a href="#architectura">Architectura</a></li>
+                    <li><a href="#legatum">Legatum</a></li>
+                </ul>
+            </div>
+            <div class="pillar-base"></div>
+        </aside>
+
+        <!-- Main Article Scroll -->
+        <main class="main-scroll">
+            <div class="scroll-top-decoration">◆ ◆ ◆ ◆ ◆ ◆ ◆</div>
+            
+            <article class="article-content">
+                <h1 class="article-title">Imperium Romanum</h1>
+                <div class="article-subtitle">The Roman Empire</div>
+                <div class="article-meta">
+                    Ex Codice Romano | Ultima mutatio: Ianuarius MMXXVI
+                </div>
+
+                <!-- Imperial Infobox -->
+                <aside class="imperial-infobox">
+                    <div class="infobox-header">
+                        <div class="infobox-eagle">🦅</div>
+                        <div class="infobox-title">Imperium<br>Romanum</div>
+                    </div>
+                    <div class="infobox-image">
+                        <div>SPQR</div>
+                    </div>
+                    <div class="infobox-body">
+                        <div class="infobox-row">
+                            <div class="infobox-label">Conditum:</div>
+                            <div class="infobox-value">XXVII a.C.n.</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Finis:</div>
+                            <div class="infobox-value">CDLXXVI (Occidens)<br>MCDLIII (Oriens)</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Caput:</div>
+                            <div class="infobox-value">Roma, Constantinopolis</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Lingua:</div>
+                            <div class="infobox-value">Latina, Graeca</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Religio:</div>
+                            <div class="infobox-value">Polythesimus Romanus,<br>Christianismus</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Gubernatio:</div>
+                            <div class="infobox-value">Principatus, Dominatus</div>
+                        </div>
+                        <div class="infobox-row">
+                            <div class="infobox-label">Imperatores:</div>
+                            <div class="infobox-value">Augustus (primus)<br>Constantine XI (ultimus)</div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Table of Contents -->
+                <nav class="codex-contents">
+                    <div class="contents-header">Index Rerum</div>
+                    <div class="contents-body">
+                        <ul>
+                            <li data-numeral="I."><a href="#summarium">Summarium</a></li>
+                            <li data-numeral="II."><a href="#historia">Historia Imperii</a>
+                                <ul>
+                                    <li data-numeral="II.I"><a href="#origo">Origo Imperii</a></li>
+                                    <li data-numeral="II.II"><a href="#expansio">Expansio Territorii</a></li>
+                                    <li data-numeral="II.III"><a href="#declinatio">Declinatio et Divisio</a></li>
+                                </ul>
+                            </li>
+                            <li data-numeral="III."><a href="#imperium">Imperium et Administratio</a></li>
+                            <li data-numeral="IV."><a href="#cultura">Cultura et Societas</a></li>
+                            <li data-numeral="V."><a href="#legatum">Legatum Romanum</a></li>
+                            <li data-numeral="VI."><a href="#fontes">Fontes</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Article Content -->
+                <section id="summarium">
+                    <h2 data-numeral="I">Summarium</h2>
+                    <p>
+                        The <strong>Roman Empire</strong> (Latin: <em>Imperium Romanum</em>) stands as one of history's most formidable civilizations, spanning from the ascension of Augustus Caesar in 27 BC to the fall of Constantinople in 1453 AD. This magnificent empire, which reached its zenith under the rule of Imperator Traianus, commanded dominion over approximately five million square kilometers of territory across three continents.
+                    </p>
+                    <p>
+                        At the height of Roman power, the empire governed an estimated seventy million souls, representing nearly one-fifth of the world's entire population. The reach of Roman law, Latin language, and architectural innovation extended from the misty shores of Britannia to the sun-scorched deserts of Arabia, from the Rhine and Danube rivers to the cataracts of the Nile.
+                    </p>
+                </section>
+
+                <div class="imperial-inscription">
+                    <div class="inscription-text">Senatus Populusque Romanus</div>
+                    <div class="inscription-translation">"The Senate and People of Rome"</div>
+                </div>
+
+                <section id="historia">
+                    <h2 data-numeral="II">Historia Imperii</h2>
+                    
+                    <h3 id="origo">Origo Imperii - The Birth of Empire</h3>
+                    <p>
+                        The transformation from the venerable Roman Republic to the Imperial system began amidst the tumultuous civil wars of the first century before Christ. Following the assassination of Gaius Julius Caesar on the Ides of March in 44 BC, his adopted heir and nephew Octavianus emerged triumphant from the subsequent power struggles. In the year 27 BC, the Senate bestowed upon Octavianus the august title of <em>Augustus</em>, marking the formal inception of the Roman Empire whilst maintaining the semblance of republican traditions.
+                    </p>
+                    <p>
+                        Augustus, with remarkable political acumen, established the <strong>Principate</strong> - a system wherein the emperor wielded supreme authority whilst ostensibly working alongside the traditional republican institutions. This delicate balance between autocratic power and republican tradition would define Roman governance for the subsequent three centuries, creating what historians term the <em>Pax Romana</em>, a golden age of unprecedented peace and prosperity.
+                    </p>
+
+                    <h3 id="expansio">Expansio Territorii - Imperial Expansion</h3>
+                    <p>
+                        The empire attained its maximum territorial extent under the military genius of Imperator Marcus Ulpius Traianus (reigned 98-117 AD). The legions of Rome conquered territories stretching from the windswept highlands of Caledonia to the ancient lands of Mesopotamia. The <em>Pax Romana</em> facilitated unparalleled economic prosperity and cultural exchange throughout the Mediterranean world and beyond.
+                    </p>
+                    <p>
+                        Roman engineers constructed magnificent roads connecting the furthest reaches of the empire, aqueducts bringing fresh water to burgeoning cities, and administrative systems that unified diverse peoples under Roman law. The provinces of Britannia, Gallia, Hispania, Africa, Aegyptus, Syria, and Asia Minor flourished under Roman governance, spreading Latin civilization and Roman justice across the known world.
+                    </p>
+
+                    <div class="imperial-inscription">
+                        <div class="inscription-text">Veni, Vidi, Vici</div>
+                        <div class="inscription-translation">"I came, I saw, I conquered" - Julius Caesar</div>
+                    </div>
+
+                    <h3 id="declinatio">Declinatio et Divisio - Decline and Division</h3>
+                    <p>
+                        The third century witnessed the Crisis of the Third Century, a catastrophic period characterized by political instability, economic depression, and relentless barbarian invasions. Emperor Diocletianus implemented sweeping reforms in 284 AD that temporarily stabilized the empire but also formalized its administrative division into Eastern and Western regions, each governed by its own Augustus and Caesar in the Tetrarchy system.
+                    </p>
+                    <p>
+                        In the year 476 AD, the Western Roman Empire met its ignominious end when the Germanic chieftain Odoacer deposed the last Western emperor, the young Romulus Augustulus. The Eastern Roman Empire, subsequently known as the Byzantine Empire, persevered for nearly another millennium until the Ottoman conquest of Constantinople in 1453, marking the final chapter in Rome's extraordinary saga.
+                    </p>
+                </section>
+
+                <section id="imperium">
+                    <h2 data-numeral="III">Imperium et Administratio</h2>
+                    <p>
+                        The Roman Empire developed one of history's most sophisticated and enduring administrative systems. The emperor held supreme military command (<em>imperium</em>), judicial authority, and legislative power, supported by an extensive bureaucracy of officials, provincial governors, and military commanders. This centralized system enabled efficient governance of vast territories and diverse populations.
+                    </p>
+                    <p>
+                        Provincial governance divided the empire's territories into senatorial and imperial provinces, each administered by governors appointed by either the Senate or the emperor himself. Roman citizenship, gradually extended throughout the empire culminating in the Constitutio Antoniniana of 212 AD, granted legal rights and protections under the comprehensive system of Roman law that would influence Western legal tradition for millennia to come.
+                    </p>
+                </section>
+
+                <section id="cultura">
+                    <h2 data-numeral="IV">Cultura et Societas</h2>
+                    <p>
+                        Roman culture represented a magnificent synthesis of elements absorbed from conquered peoples, particularly the Greeks, whilst developing distinctive characteristics in architecture, literature, philosophy, and public spectacle. The Latin language became the lingua franca of the western empire and gave birth to the Romance languages that flourish today across Europe and the Americas.
+                    </p>
+                    <p>
+                        Roman engineering achievements remain unparalleled in the ancient world: extensive road networks spanning tens of thousands of miles, monumental architecture exemplified by the Colosseum and Pantheon, sophisticated water management systems including aqueducts and sewers, and military fortifications such as Hadrian's Wall. These innovations demonstrated both practical engineering mastery and the empire's desire to project power, civilization, and eternal glory.
+                    </p>
+                </section>
+
+                <div class="imperial-inscription">
+                    <div class="inscription-text">Alea Iacta Est</div>
+                    <div class="inscription-translation">"The die is cast" - Julius Caesar at the Rubicon</div>
+                </div>
+
+                <section id="legatum">
+                    <h2 data-numeral="V">Legatum Romanum</h2>
+                    <p>
+                        The Roman Empire's influence upon Western civilization remains profound and pervasive even two millennia after its zenith. Roman law, particularly as codified in Justinian's <em>Corpus Juris Civilis</em>, forms the foundation of numerous modern legal systems worldwide. Latin influenced the development of European languages, whilst Roman architectural principles continue to inspire contemporary design from government buildings to civic monuments.
+                    </p>
+                    <p>
+                        The very concept of citizenship, republican governance, the relationship between church and state, and the ideals of universal law all trace their intellectual lineage to Roman precedents. The empire's cultural, political, military, and technological achievements established patterns and principles that shaped European development throughout the medieval and modern periods, creating a legacy that endures unto the present day.
+                    </p>
+                </section>
+
+                <!-- References -->
+                <section class="references-section" id="fontes">
+                    <h2 data-numeral="VI">Fontes et Bibliographia</h2>
+                    <ol>
+                        <li>Gibbon, Edwardus. <em>The History of the Decline and Fall of the Roman Empire</em>. Londini, 1776-1789.</li>
+                        <li>Goldsworthy, Adrianus. <em>How Rome Fell: Death of a Superpower</em>. Yale University Press, 2009.</li>
+                        <li>Ward-Perkins, Bryanus. <em>The Fall of Rome and the End of Civilization</em>. Oxford University Press, 2005.</li>
+                        <li>Southern, Patricius. <em>The Roman Empire from Severus to Constantine</em>. Routledge, 2001.</li>
+                        <li>Heather, Petrus. <em>The Fall of the Roman Empire: A New History</em>. Oxford University Press, 2006.</li>
+                        <li>Grant, Michael. <em>History of Rome</em>. Scribner, 1978.</li>
+                    </ol>
+                </section>
+            </article>
+        </main>
+
+        <!-- Right Sidebar - Related Scrolls -->
+        <aside class="related-scrolls">
+            <div class="scroll-box">
+                <div class="scroll-box-header">
+                    <h3>Articuli Similes</h3>
+                </div>
+                <div class="scroll-box-content">
+                    <ul>
+                        <li><a href="#respublica">Res Publica Romana</a></li>
+                        <li><a href="#augustus">Imperator Augustus</a></li>
+                        <li><a href="#senatus">Senatus Romanus</a></li>
+                        <li><a href="#legiones">Legiones Romanae</a></li>
+                        <li><a href="#ius">Ius Romanum</a></li>
+                        <li><a href="#architectura">Architectura Romana</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="scroll-box">
+                <div class="scroll-box-header">
+                    <h3>Categoriae</h3>
+                </div>
+                <div class="scroll-box-content">
+                    <ul>
+                        <li><a href="#antiquitas">Roma Antiqua</a></li>
+                        <li><a href="#imperia">Imperia Historica</a></li>
+                        <li><a href="#classica">Antiquitas Classica</a></li>
+                        <li><a href="#mediterranea">Historia Mediterranea</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="scroll-box">
+                <div class="scroll-box-header">
+                    <h3>Linguae</h3>
+                </div>
+                <div class="scroll-box-content">
+                    <ul>
+                        <li><a href="#latina">Latina</a></li>
+                        <li><a href="#graeca">Ἑλληνικά</a></li>
+                        <li><a href="#italiana">Italiano</a></li>
+                        <li><a href="#anglica">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

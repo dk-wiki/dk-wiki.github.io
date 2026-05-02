@@ -1,0 +1,17 @@
+@import url("/styles/base-roman-gladiator-styles.css");
+
+:root {
+    --primary-color: #9A9A9A;
+
+    /* Title variables */
+    --title-gradient: linear-gradient(to bottom, #cccccc 22%, #b8b8b8 26%, #b8b8b8 27%, #d9d9d9 40%, #3e3e3e 78%);
+    --edge-shadow-1: -1px 0 1px #b3b3b3;
+    --edge-shadow-2: 0 1px 1px #b3b3b3;
+    --drop-shadow-1: 5px 5px 10px rgba(0, 0, 0, .4);
+    --drop-shadow-2: -5px -5px 10px rgba(0, 0, 0, .4);
+    --outline: rgb(133, 72, 72);
+
+    --vexillum-body: url("/tiles/vexillum-body-silver.png");
+    --vexillum-left: url("/tiles/vexillum-end-left-silver.png");
+    --vexillum-right: url("/tiles/vexillum-end-right-silver.png");
+}

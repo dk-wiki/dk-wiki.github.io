@@ -1,0 +1,277 @@
+@font-face {
+    font-family:  'Sixtyfour Convergence';
+    src: url('/fonts/SixtyfourConvergence.ttf') format('truetype');
+}
+
+/* 
+###########################################################
+###                     VARIABLES                       ### 
+###########################################################
+*/
+
+:root {
+    --crt-stripe-color-primary: rgba(189, 223, 0, 0.164);
+    --crt-stripe-height: 5px;
+    --crt-stripe-gap: 5px;
+
+    --rgb-shadow: -1px 0 red, 1px 0 blue;
+
+    --text-color: #81ff7c;
+    --text-glow-color: #57ca53;
+    --text-glow: 0 0 4px var(--text-glow-color), 0 0 8px var(--text-glow-color);
+
+    --caption-color: rgb(229, 182, 229);
+
+    --warning-text-color: rgb(255, 150, 150);
+    --warning-text-glow-color: #a35151;
+
+    --text-link-color: #8ed2ff;
+    --text-link-glow-color: #39b0ff;
+
+    --flicker-rate: 100ms;
+
+    --border-color: #b3ffb0;
+    --border-glow-color: #57ca53;
+    --border-glow: 0 0 4px var(--border-color), 0 0 8px var(--border-glow-color);
+
+    --icon-color: #d5e962;
+    --icon-glow-color: #f1ff9f;
+}
+
+/* 
+###########################################################
+###                       GENERAL                       ### 
+###########################################################
+*/
+
+#global {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    animation: crt-flicker var(--flicker-rate) infinite;
+    filter: contrast(1.2) saturate(1.1);
+    color: white;
+    transform-style: preserve-3d;
+    z-index: 0;
+}
+
+#global::before,
+#global::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+#global::after {
+    background: repeating-linear-gradient(to bottom,
+            var(--crt-stripe-color-primary) 0 var(--crt-stripe-height),
+            transparent var(--crt-stripe-height) calc(var(--crt-stripe-height) + var(--crt-stripe-gap)));
+    mix-blend-mode: screen;
+    z-index: 1;
+}
+
+#global::before {
+    background: radial-gradient(ellipse at center,
+            rgba(0, 0, 0, 0) 40%,
+            rgba(0, 0, 0, 0.5) 100%);
+    z-index: 2;
+}
+
+#page {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-color);
+    text-shadow:
+        var(--rgb-shadow),
+        var(--text-glow);
+    font-weight: 1000;
+    filter: blur(0.2px);
+    position: relative;
+}
+
+.title {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    text-shadow: var(--rgb-shadow);
+}
+
+.box {
+    position: relative;
+    padding: 1rem;
+    border: 5px var(--border-color) solid;
+    border-radius: 0;
+    box-shadow:
+        var(--border-glow),
+        var(--rgb-shadow);
+}
+
+.image {
+    image-rendering: pixelated;
+    animation: crt-flicker var(--flicker-rate) infinite;
+    position: relative;
+    box-shadow: var(--rgb-shadow);
+    z-index: 0;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+
+.image-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--img-url) no-repeat center/cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--caption-color);
+    margin: 0.5rem 0;
+}
+
+.article-link {
+    color: var(--text-link-color);
+    text-shadow:
+        var(--rgb-shadow),
+        var(--text-link-glow-color);
+}
+
+.divider {
+    border: 2.5px var(--border-color) solid;
+    border-radius: 0;
+    box-shadow:
+        var(--border-glow),
+        var(--rgb-shadow);
+}
+
+.article-link:focus {
+    outline: 2px solid var(--link-color);
+    border-radius: 0%;
+    outline-offset: 2px;
+}
+
+@keyframes crt-flicker {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.90;
+    }
+}
+
+/* 
+###########################################################
+###                        CUSTOM                       ### 
+###########################################################
+*/
+
+::selection {
+    background: var(--icon-color);
+    color: black;
+}
+
+.disclaimer {
+    text-shadow: none !important;
+}
+
+.disclaimer-text {
+    color: var(--warning-text-color);
+    font-size: small;
+    text-shadow:
+        var(--rgb-shadow),
+        0 0 6px var(--warning-text-glow-color) !important;
+}
+
+.disclaimer-icon {
+    color: var(--icon-color);
+    filter: drop-shadow(-1px 0 red) drop-shadow(1px 0 blue) drop-shadow(0 0 4px var(--icon-glow-color));
+}
+
+.fun-form label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-input-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form-checkbox {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--border-color);
+    box-shadow: var(--border-glow), var(--rgb-shadow);
+    cursor: pointer;
+    position: relative;
+    margin-right: 0.5rem;
+}
+
+.form-checkbox:checked {
+    background: var(--icon-color);
+    box-shadow: 0 0 2px var(--icon-color), 0 0 5px var(--icon-glow-color), var(--rgb-shadow);
+}
+
+.form-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 2px var(--icon-glow-color), 0 0 8px var(--icon-glow-color), var(--rgb-shadow);
+}
+
+.form-text-input {
+    border: 2px solid var(--border-color);
+    box-shadow: var(--border-glow), var(--rgb-shadow);
+    text-shadow: var(--rgb-shadow), var(--text-glow);
+    filter: blur(0.2px);
+    caret-color: var(--icon-color);
+    margin-left: 1rem;
+    padding: 0 0.5rem;
+    text-align: right;
+}
+
+.form-text-input:focus {
+    outline: none;
+    border-color: var(--icon-color);
+    box-shadow: 0 0 4px var(--icon-glow-color), 0 0 8px var(--icon-glow-color), var(--rgb-shadow);
+}
+
+.form-button {
+    border: 2px solid var(--border-color);
+    border-radius: 0%;
+    box-shadow: var(--border-glow), var(--rgb-shadow);
+    text-shadow: var(--rgb-shadow), var(--text-glow);
+    color: var(--text-color);
+    width: 100%;
+    padding: 0px;
+}
+
+.form-button:hover {
+    background-color: none;
+    border-color: var(--icon-color);
+    box-shadow: 0 0 4px var(--icon-glow-color), 0 0 8px var(--icon-glow-color), var(--rgb-shadow);
+    color: var(--icon-color);
+}
+
+.progress-bar-internal {
+    box-shadow:
+        var(--border-glow),
+        var(--rgb-shadow);
+}
+
+.form-results img {
+    filter: drop-shadow(var(--rgb-shadow));
+}

@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Coinage Caps Kruger Gray";
+    src: url('/fonts/CoinageCapsKrugerGray.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Day Roman";
+    src: url('/fonts/DayRoman.ttf') format('truetype');
+}
+
+:root {
+    --blur-size: 7px;
+    --bg-tile-size: 325px;
+    --title-height: 75px;
+    --pg-b-color: #ecebe8;
+    --pg-b-size: 5px;
+    --pg-color: #fafafa;
+    --outline-size: 3px;
+
+    --imperial-red: #8B0000;
+    --deep-red: #5C0000;
+    --roman-gold: #D4AF37;
+    --bronze: #B8860B;
+    --marble: #F8F6F0;
+    --aged-marble: #E8E6DC;
+    --stone: #4A4A4A;
+    --dark-stone: #2C2420;
+    --ivory: #FFFFF0;
+}
+
+#global {
+    background:
+        repeating-linear-gradient(to right,
+            rgba(0, 0, 0, 0.1) 0px,
+            rgba(255, 255, 255, 0.2) 10px,
+            rgba(0, 0, 0, 0.2) 20px),
+        linear-gradient(to right,
+            #d4d4d4,
+            #f5f5f5 20%,
+            #ffffff 50%,
+            #f5f5f5 80%,
+            #d4d4d4);
+    background-blend-mode: multiply;
+}
+
+#page {
+    font-family: 'Day Roman';
+    color: rgb(56, 35, 28);
+}
+
+.title {
+    font-size: 2.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    height: var(--title-height);
+    padding: 0 var(--title-height);
+    font-family: 'Coinage Caps Kruger Gray';
+    flex: 1;
+    margin: 0;
+    position: relative;
+    background-image: var(--vexillum-body);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto 100%;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: var(--title-height);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.title::before {
+    left: 0;
+    background-image: var(--vexillum-left);
+}
+
+.title::after {
+    right: 0;
+    background-image: var(--vexillum-right);
+}
+
+
+.title-section {
+    --title-height: 60px;
+    font-size: 2rem;
+    height: var(--title-height);
+}
+
+.title-subsection {
+    --title-height: 50px;
+    font-size: 1.5rem;
+    height: var(--title-height);
+}
+
+.title__fill {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    background: var(--title-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font: inherit;
+    letter-spacing: inherit;
+}
+
+.title__stroke {
+    visibility: visible;
+    position: absolute;
+    left: var(--title-height);
+    z-index: 1;
+    display: inline-block;
+    pointer-events: none;
+    font: inherit;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: var(--outline-size) var(--outline);
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.paragraph {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: var(--pg-b-size);
+    border-radius: 10px;
+
+}

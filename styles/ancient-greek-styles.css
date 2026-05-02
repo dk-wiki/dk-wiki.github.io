@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url('/fonts/Cinzel.bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url('/fonts/Libre-Baskerville.ttf') format('truetype');
+}
+
+#global {
+    position: relative;
+    background-color: #EEECE1;
+    color: #5A3C2C;
+
+    --box-border-size: 20px;
+    --pillar-width: 32px;
+}
+
+#global::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('/tiles/marble.png');
+    pointer-events: none;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#page {
+    font-family: 'Libre Baskerville', serif;
+    z-index: 1;
+}
+
+.title,
+.toc-title,
+.rank-title {
+    font-family: 'Cinzel', serif;
+}
+
+.article-link,
+.toc-link {
+    color: rgb(207, 70, 70);
+}
+
+.toc-link:focus,
+.article-link:focus {
+    outline: none;
+    color: red;
+}
+
+.divider {
+    position: relative;
+    border: none;
+    height: 20px;
+    padding: 0 20px;
+    background-image: url('/tiles/meander.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 2rem 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    background-image: url('/tiles/meander-ends.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.box {
+    position: relative;
+    padding: 0 var(--box-border-size) calc(var(--box-border-size) * 2) var(--box-border-size);
+    border: none;
+    overflow: visible;
+    box-shadow: none;
+}
+
+
+.box::before,
+.box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: var(--box-border-size);
+    height: calc(100% - var(--box-border-size));
+    background-image: url('/tiles/kotinos-up.png');
+    background-repeat: repeat-y;
+    background-size: var(--box-border-size) auto;
+    z-index: 1;
+    background-position: top;
+}
+
+.box::before {
+    left: 0;
+    transform: scaleX(-1);
+    background-position: left top;
+}
+
+.box::after {
+    right: 0;
+    transform-origin: right top;
+    background-position: right top;
+}
+
+.box-tl,
+.box-tr {
+    position: absolute;
+    top: calc(-1 * var(--box-border-size));
+    width: var(--box-border-size);
+    height: var(--box-border-size);
+    background-image: url('/tiles/kotinos-top.png');
+    background-repeat: no-repeat;
+    background-size: var(--box-border-size) var(--box-border-size);
+    z-index: 2;
+}
+
+.box-tl {
+    transform: scaleX(-1);
+    left: 0;
+}
+
+.box-tr {
+    right: 0;
+    transform-origin: right top;
+}
+
+.box-bl,
+.box-br {
+    position: absolute;
+    bottom: 0;
+    width: calc(50% - var(--box-border-size));
+    height: var(--box-border-size);
+    background-repeat: repeat-x;
+    background-size: var(--box-border-size) var(--box-border-size);
+    z-index: 3;
+}
+
+.box-bl {
+    left: var(--box-border-size);
+    background-image: url('/tiles/kotinos-right.png');
+}
+
+.box-br {
+    right: var(--box-border-size);
+    background-image: url('/tiles/kotinos-left.png');
+}
+
+.box-bl-corner,
+.box-br-corner {
+    position: absolute;
+    bottom: 0;
+    width: var(--box-border-size);
+    height: var(--box-border-size);
+    background-repeat: no-repeat;
+    background-size: var(--box-border-size) var(--box-border-size);
+    z-index: 4;
+}
+
+.box-bl-corner {
+    left: 0;
+    transform: scaleX(-1);
+    background-image: url('/tiles/kotinos-corner.png');
+}
+
+.box-br-corner {
+    right: 0;
+    background-image: url('/tiles/kotinos-corner.png');
+}
+
+.box-bc {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    width: calc(var(--box-border-size)*2);
+    height: calc(var(--box-border-size)*2);
+    background-image: url('/tiles/ajax-plate.png');
+    background-repeat: no-repeat;
+    background-size: calc(var(--box-border-size)*2) calc(var(--box-border-size)*2);
+    z-index: 4;
+}
+
+/* 
+###########################################################
+###                        CUSTOM                       ### 
+###########################################################
+*/
+
+.pillar-box {
+    padding: var(--pillar-width) calc(2*var(--pillar-width));
+}
+
+.pillar-left,
+.pillar-right {
+    position: absolute;
+    top: var(--pillar-width);
+    height: calc(100% - 2*var(--pillar-width));
+    width: var(--pillar-width);
+    background-image: url('/tiles/pillar-body.png');
+    background-repeat: repeat-y;
+    background-size: var(--pillar-width) auto;
+}
+
+.pillar-left {
+    left: var(--pillar-width);
+}
+
+.pillar-right {
+    right: var(--pillar-width);
+}
+
+.pillar-left::before,
+.pillar-right::before,
+.pillar-left::after,
+.pillar-right::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: var(--pillar-width);
+    height: var(--pillar-width);
+    background-size: var(--pillar-width) auto;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.pillar-left::before,
+.pillar-right::before {
+    top: 0;
+    background-image: url('/tiles/pillar-top.png');
+}
+
+.pillar-left::after,
+.pillar-right::after {
+    bottom: 0;
+    background-image: url('/tiles/pillar-base.png');
+}
+
+/* Entablature (Top) */
+.pillar-top {
+    position: absolute;
+    top: 0;
+    left: calc(2 * var(--pillar-width));
+    width: calc(100% - 4 * var(--pillar-width));
+    height: var(--pillar-width);
+    background-image: url('/tiles/entablature-body.png');
+    background-repeat: repeat-x;
+    background-size: var(--pillar-width) auto;
+}
+
+.pillar-top::before,
+.pillar-top::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: var(--pillar-width);
+    height: var(--pillar-width);
+    background-size: var(--pillar-width) auto;
+    background-repeat: no-repeat;
+}
+
+.pillar-top::before {
+    left: calc(-1 * var(--pillar-width));
+    background-image: url('/tiles/entablature-left.png');
+}
+
+.pillar-top::after {
+    right: calc(-1 * var(--pillar-width));
+    background-image: url('/tiles/entablature-right.png');
+}
+
+/* Base (Bottom) */
+.pillar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: var(--pillar-width);
+    width: calc(100% - 2 * var(--pillar-width));
+    height: var(--pillar-width);
+    background-image: url('/tiles/base-body.png');
+    background-repeat: repeat-x;
+    background-size: var(--pillar-width) auto;
+}
+
+.pillar-bottom::before,
+.pillar-bottom::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: var(--pillar-width);
+    height: var(--pillar-width);
+    background-size: var(--pillar-width) auto;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.pillar-bottom::before {
+    left: calc(-1 * var(--pillar-width));
+    background-image: url('/tiles/base-left.png');
+}
+
+.pillar-bottom::after {
+    right: calc(-1 * var(--pillar-width));
+    background-image: url('/tiles/base-right.png');
+}
+
+.pillar-internal {
+    position: relative;
+    padding: 1rem;
+}
+
+.ajax-sitting {
+    position: absolute;
+    bottom: 0;
+    right: calc(var(--pillar-width));
+    width: 64px;
+    height: auto;
+    z-index: 11;
+}
+
+button,
+button:hover {
+    all: unset;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}

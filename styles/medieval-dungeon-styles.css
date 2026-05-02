@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Canterbury";
+    src: url('/fonts/Canterbury.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mordred";
+    src: url('/fonts/Mordred.bold.ttf') format('truetype');
+}
+
+:root {
+    --box-border-size: 40px;
+    --pillar-width: 32px;
+    --text-primary: #5A3C2C;
+
+    --divider-size: 30px;
+}
+
+#global {
+    position: relative;
+    color: var(--text-primary);
+    z-index: 1;
+    background: none;
+}
+
+#global::after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.5) 0%,
+            transparent 15%,
+            transparent 85%,
+            rgba(0, 0, 0, 0.5) 100%);
+}
+
+#global::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('/tiles/black-brick.png');
+    pointer-events: none;
+    opacity: 0.5;
+    z-index: -2;
+}
+
+#page {
+    opacity: 1;
+    background-image: url("/tiles/old-paper-body.svg");
+    background-size: 100% auto;
+    padding: 0 5rem;
+    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.4));
+    font-family: "Mordred";
+    font-size: 1.2rem;
+}
+
+.title {
+    font-family: "Canterbury";
+}
+
+.title-main {
+    font-size: 3rem;
+}
+
+.title-section {
+    font-size: 2.5rem;
+}
+
+.title-subsection {
+    font-size: 2rem;
+}
+
+.link,
+.toc-link {
+    color: rgb(131, 55, 55);
+}
+
+.toc-link:focus,
+.article-link:focus {
+    outline: none;
+    color: rgb(185, 98, 98);
+}
+
+.box {
+    border-radius: 0;
+    background: linear-gradient(to bottom, rgba(187, 161, 122, 0.8) 0%, rgba(187, 161, 122, 0.4) 100%);
+    border-top: 5px solid #5b3a29;
+    border-bottom: 5px solid #5b3a29;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    overflow: visible;
+}
+
+.fun {
+    border-top: 5px solid #5b3a29;
+    border-bottom: 5px solid #5b3a29;
+    background: linear-gradient(to bottom, rgba(187, 161, 122, 0.8) 0%, rgba(187, 161, 122, 0.4) 100%);
+}
+
+.qf-image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.quick-facts-card {
+    margin-left: none;
+}
+
+.article-link {
+    font-size: 1rem;
+}
+
+.caption,
+.quick-facts-card th,
+.quick-facts-card td {
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.table-of-contents h2 {
+    font-size: 1.3rem;
+}
+
+.divider {
+    position: relative;
+    border: none;
+    height: var(--divider-size);
+    padding: 0 10px;
+    background-image: url('/tiles/chain-edge.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 0.5rem 0;
+    overflow: visible;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: var(--divider-size);
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+.divider::before {
+    left: calc(-1 * var(--divider-size));
+    background-image: url('/tiles/chain-left.png');
+}
+
+.divider::after {
+    right: calc(-1 * var(--divider-size));
+    background-image: url('/tiles/chain-right.png');
+}
+
+.box-bl-corner,
+.box-br-corner,
+.box-tl,
+.box-tr {
+    position: absolute;
+    width: var(--box-border-size);
+    height: var(--box-border-size);
+    background-repeat: no-repeat;
+    background-size: var(--box-border-size) var(--box-border-size);
+    z-index: 4;
+    background-image: url('/tiles/axe.png');
+}
+
+.box-tl,
+.box-tr {
+    top: calc(-0.5 * var(--box-border-size));
+}
+
+.box-bl-corner,
+.box-br-corner {
+    bottom: calc(-0.5 * var(--box-border-size));
+}
+
+.box-bl-corner,
+.box-tl {
+    left: calc(50% - 0.28 * var(--box-border-size));
+    transform: scaleX(-1);
+}
+
+.box-br-corner,
+.box-tr {
+    right: calc(50% - 0.28 * var(--box-border-size));
+}

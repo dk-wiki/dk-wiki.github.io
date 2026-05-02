@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.title {
+    color: var(--primary-color);
+    font-family: 'Permanent Marker', cursive, sans-serif;
+}

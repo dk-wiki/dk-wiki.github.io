@@ -26,7 +26,7 @@ const LEVELS: readonly Level[] = [
             "It might be time to consider cheerleading instead of fighting.",
             "You'll need to do a lot better to win Ajax's approval.",
         ],
-        multiplier: 0.2,
+        multiplier: 0.15,
     },
     {
         range: [40, 60],
@@ -36,7 +36,7 @@ const LEVELS: readonly Level[] = [
             "Sparta depends on you; wield your dory with valour!",
             "You will live as a worthy Spartan",
         ],
-        multiplier: 0.45,
+        multiplier: 0.2,
     },
     {
         range: [60, 80],
@@ -46,7 +46,7 @@ const LEVELS: readonly Level[] = [
             "Truly an impressive feat, Spartan!",
             "Your skill would bring your enemies to their knees.",
         ],
-        multiplier: 0.6,
+        multiplier: 0.25,
     },
     {
         range: [80, 100],
@@ -56,7 +56,7 @@ const LEVELS: readonly Level[] = [
             "Ajax is impressed.",
             "You would make a legendary Spartan leader!",
         ],
-        multiplier: 1,
+        multiplier: 0.4,
     },
     {
         range: [100, 1000],
@@ -66,7 +66,7 @@ const LEVELS: readonly Level[] = [
             "Your might rivals that of Ajax; he's jealous.",
             "History books will never forget your glory!",
         ],
-        multiplier: 2,
+        multiplier: 1,
     },
 ] as const;
 

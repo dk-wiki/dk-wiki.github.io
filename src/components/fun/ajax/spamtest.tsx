@@ -22,7 +22,7 @@ const LEVELS: readonly Level[] = [
         range: [20, 40],
         title: "Trainee",
         endgame: [
-            "You've got potential, but you'll be using the plastic dory for now.",
+            "You've got potential, but you'll be using the plastic glory for now.",
             "It might be time to consider cheerleading instead of fighting.",
             "You'll need to do a lot better to win Ajax's approval.",
         ],
